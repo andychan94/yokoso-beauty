@@ -1,0 +1,15 @@
+telegram_username: 'Ваше имя польователя в Telegram'
+telegram_username_short: Telegram
+Similar products: 'Похожие товары'
+
+sylius:
+  ui:
+    hello: 'Здравствуйте,'
+    name: 'Название'
+    home: 'Главная'
+    media: 'Фотки'
+    show: 'Показать'
+    edit_your_personal_information: 'Персональные данные'
+  form:
+    taxon:
+      name: 'Название'
