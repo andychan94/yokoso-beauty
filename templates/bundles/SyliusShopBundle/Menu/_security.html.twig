@@ -1,0 +1,20 @@
+<div class="ui right inverted yokoso-red-bg menu">
+    {% if is_granted('ROLE_USER') %}
+
+
+
+        <div class="ui pointing dropdown link item" id="sylius-user-dropdown">
+            <span class="text sylius-user">{{ 'sylius.ui.hello'|trans }} {{ app.user.customer.fullName }}!</span>
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <a href="{{ path('sylius_shop_account_dashboard') }}"
+                   class="item">{{ 'sylius.ui.my_account'|trans }}</a>
+                <a href="{{ path('sylius_shop_logout') }}"
+                   class="item sylius-logout-button">{{ 'sylius.ui.logout'|trans }}</a>
+            </div>
+        </div>
+    {% else %}
+        <a href="{{ path('sylius_shop_login') }}" class="item">{{ 'sylius.ui.login'|trans }}</a>
+        <a href="{{ path('sylius_shop_register') }}" class="item">{{ 'sylius.ui.register'|trans }}</a>
+    {% endif %}
+</div>

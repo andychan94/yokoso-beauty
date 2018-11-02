@@ -2,6 +2,9 @@
 !/var/.gitignore
 
 /public/assets
+!/public/assets/shop/css/yokoso.scss
+!/public/assets/shop/css/yokoso.css
+!/public/assets/shop/css/yokoso.css.map
 /public/bundles
 /public/css
 /public/js

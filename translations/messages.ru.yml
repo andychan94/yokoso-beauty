@@ -10,6 +10,10 @@ sylius:
     media: 'Фотки'
     show: 'Показать'
     edit_your_personal_information: 'Персональные данные'
+    sort: 'Сортировать'
+    by_position: 'По порядку'
+    powered_by: 'Разработано by'
+    your_store: 'Yokoso Beauty'
   form:
     taxon:
       name: 'Название'
