@@ -2,8 +2,9 @@
 
 {{ sonata_block_render_event('sylius.shop.product.index.before_box', {'product': product}) }}
 
-<div class="ui raised link red card">
-    <a href="{{ path('sylius_shop_product_show', {'slug': product.slug, '_locale': product.translation.locale}) }}" class="blurring dimmable image">
+<div class="ui raised link card">
+    <a href="{{ path('sylius_shop_product_show', {'slug': product.slug, '_locale': product.translation.locale}) }}"
+       class="blurring dimmable image">
         <div class="ui dimmer">
             <div class="content">
                 <div class="center">
@@ -14,10 +15,16 @@
         {% include '@SyliusShop/Product/_mainImage.html.twig' with {'product': product} %}
     </a>
     <div class="content">
-        <a href="{{ path('sylius_shop_product_show', {'slug': product.slug, '_locale': product.translation.locale}) }}" class="header sylius-product-name">{{ product.name }}</a>
+        <a href="{{ path('sylius_shop_product_show', {'slug': product.slug, '_locale': product.translation.locale}) }}"
+           class="header sylius-product-name">{{ product.name }}</a>
         {% if not product.variants.empty() %}
             <div class="sylius-product-price">{{ money.calculatePrice(product|sylius_resolve_variant) }}</div>
         {% endif %}
+    </div>
+
+    <div class="ui bottom attached yokoso button">
+
+        {% include '@BitBagSyliusWishlistPlugin/_addToWishlist.html.twig' %}
     </div>
 </div>
 

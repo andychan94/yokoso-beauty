@@ -1,6 +1,6 @@
 {% extends '@SyliusUi/Layout/sidebar.html.twig' %}
 
-{% block title %} | Sylius{% endblock %}
+{% block title %} | Yokoso Beauty{% endblock %}
 
 {% block stylesheets %}
     {% include '@SyliusUi/_stylesheets.html.twig' with {'path': 'assets/admin/css/style.css'} %}
@@ -37,7 +37,7 @@
 {% block sidebar %}
     {{ sonata_block_render_event('sylius.admin.layout.sidebar_top') }}
 
-    <a class="item" href="{{ path('sylius_admin_dashboard') }}"><b>Yokoso Japan</b></a>
+    <a class="item" href="{{ path('sylius_admin_dashboard') }}"><b>Yokoso Beauty</b></a>
     {{ knp_menu_render('sylius.admin.main', {'template': '@SyliusUi/Menu/sidebar.html.twig', 'currentClass': 'active'}) }}
 
     {{ sonata_block_render_event('sylius.admin.layout.sidebar_down') }}

@@ -217,6 +217,7 @@
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/bitbag/wishlist-plugin" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

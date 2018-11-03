@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "646683b8b8aaad64d8a7bfcc6fae7931",
+    "content-hash": "cb4a8d3f2e10a7fdc0895a0f22d8b88f",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -49,6 +49,60 @@
                 "transliterator"
             ],
             "time": "2017-04-04T11:38:05+00:00"
+        },
+        {
+            "name": "bitbag/wishlist-plugin",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BitBagCommerce/SyliusWishlistPlugin.git",
+                "reference": "fabe99feb12d2e3113f31e25c74449af585ca568"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BitBagCommerce/SyliusWishlistPlugin/zipball/fabe99feb12d2e3113f31e25c74449af585ca568",
+                "reference": "fabe99feb12d2e3113f31e25c74449af585ca568",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2",
+                "sylius/sylius": "^1.3"
+            },
+            "require-dev": {
+                "behat/behat": "^3.4",
+                "behat/mink": "^1.7@dev",
+                "behat/mink-browserkit-driver": "^1.3",
+                "behat/mink-extension": "^2.2",
+                "behat/mink-selenium2-driver": "^1.3",
+                "friends-of-behat/context-service-extension": "^1.2",
+                "friends-of-behat/cross-container-extension": "^1.1",
+                "friends-of-behat/service-container-extension": "^1.0",
+                "friends-of-behat/symfony-extension": "^1.2.1",
+                "friends-of-behat/variadic-extension": "^1.1",
+                "lakion/mink-debug-extension": "^1.2.3",
+                "phpspec/phpspec": "^5.0",
+                "sensiolabs/security-checker": "^4.1",
+                "sylius-labs/coding-standard": "^2.0",
+                "symfony/browser-kit": "^3.4|^4.1",
+                "symfony/debug-bundle": "^3.4|^4.1",
+                "symfony/dotenv": "^3.4|^4.1",
+                "symfony/intl": "^3.4|^4.1",
+                "symfony/web-profiler-bundle": "^3.4|^4.1",
+                "symfony/web-server-bundle": "^3.4|^4.1"
+            },
+            "type": "sylius-plugin",
+            "autoload": {
+                "psr-4": {
+                    "BitBag\\SyliusWishlistPlugin\\": "src/",
+                    "Tests\\BitBag\\SyliusWishlistPlugin\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Wishlist plugin for Sylius.",
+            "time": "2018-10-22T12:43:24+00:00"
         },
         {
             "name": "clue/stream-filter",

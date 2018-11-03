@@ -1,31 +1,33 @@
 imports:
-    - { resource: "@SyliusCoreBundle/Resources/config/app/config.yml" }
+- { resource: "@SyliusCoreBundle/Resources/config/app/config.yml" }
 
-    - { resource: "@SyliusAdminBundle/Resources/config/app/config.yml" }
-    - { resource: "@SyliusAdminApiBundle/Resources/config/app/config.yml" }
+- { resource: "@SyliusAdminBundle/Resources/config/app/config.yml" }
+- { resource: "@SyliusAdminApiBundle/Resources/config/app/config.yml" }
 
-    - { resource: "@SyliusShopBundle/Resources/config/app/config.yml" }
+- { resource: "@SyliusShopBundle/Resources/config/app/config.yml" }
 
-    - { resource: "grids/grids.yml" }
+- { resource: "grids/grids.yml" }
+- { resource: "@BitBagSyliusWishlistPlugin/Resources/config/config.yml" }
 
 
 
 parameters:
-    sylius_core.public_dir: '%kernel.project_dir%/public'
+  sylius_core.public_dir: '%kernel.project_dir%/public'
 
 sylius_shop:
-    product_grid:
-        include_all_descendants: true
-    locale_switcher: storage
+  product_grid:
+    include_all_descendants: true
+  locale_switcher: storage
 
 sylius_theme:
-    sources:
-        filesystem:
-            directories:
-                - "%kernel.project_dir%/themes"
+  sources:
+    filesystem:
+      directories:
+      - "%kernel.project_dir%/themes"
 
 sylius_customer:
-    resources:
-        customer:
-            classes:
-                model: App\Entity\Customer
+  resources:
+    customer:
+      classes:
+        model: App\Entity\Customer
+

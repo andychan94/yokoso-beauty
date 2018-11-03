@@ -17,3 +17,14 @@ sylius:
   form:
     taxon:
       name: 'Название'
+
+bitbag_sylius_wishlist_plugin:
+  ui:
+    wishlist: Избранное
+    add_to_wishlist: Добавить в избранное
+    remove_from_wishlist: Убрать из избранного
+    your_wishlist_is_empty: Пусто
+    added_wishlist_item: Добавлено.
+    removed_wishlist_item: Удалено.
+    add_items_to_cart: Добавить товары из избранного в корзину.
+    added_to_cart: Добавлено.
