@@ -1,12 +1,12 @@
 /var/*
 !/var/.gitignore
 
-/public/assets
-!/public/assets/shop/css/.gitignore
-/public/bundles
-/public/css
-/public/js
-/public/media
+/public_html/assets
+!/public_html/assets/shop/css/.gitignore
+/public_html/bundles
+/public_html/css
+/public_html/js
+/public_html/media
 
 /vendor
 /node_modules
@@ -72,6 +72,6 @@ etc
 liteup.xyz
 mail
 perl5
-public_ftp
+public_html_ftp
 ssl
 www
