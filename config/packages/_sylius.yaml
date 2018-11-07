@@ -38,3 +38,8 @@ knp_gaufrette:
       local:
         directory: "%kernel.project_dir%/public"
         create: true
+
+sylius_mailer:
+  sender:
+    name: Yokoso Beauty
+    address: info@yokoso-beauty.com
