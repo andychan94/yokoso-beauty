@@ -23,6 +23,12 @@
     "behat/transliterator": {
         "version": "v1.2.0"
     },
+    "bitbag/cms-plugin": {
+        "version": "v2.0.5"
+    },
+    "bitbag/elasticsearch-plugin": {
+        "version": "v1.1.0"
+    },
     "bitbag/wishlist-plugin": {
         "version": "v1.3.0"
     },
@@ -125,6 +131,9 @@
     "egulias/email-validator": {
         "version": "2.1.5"
     },
+    "elasticsearch/elasticsearch": {
+        "version": "v6.0.1"
+    },
     "friends-of-behat/context-service-extension": {
         "version": "v1.2.0"
     },
@@ -153,6 +162,18 @@
             "branch": "master",
             "version": "2.2",
             "ref": "81dee417d2cc60cd1c9d6208dff2ec22a1103e93"
+        }
+    },
+    "friendsofsymfony/ckeditor-bundle": {
+        "version": "1.2.0"
+    },
+    "friendsofsymfony/elastica-bundle": {
+        "version": "5.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "5.0",
+            "ref": "3f73f240ee0c3719e89f1c994ce66904e2ef84f6"
         }
     },
     "friendsofsymfony/oauth-server-bundle": {
@@ -184,6 +205,12 @@
     },
     "guzzlehttp/psr7": {
         "version": "1.4.2"
+    },
+    "guzzlehttp/ringphp": {
+        "version": "1.1.1"
+    },
+    "guzzlehttp/streams": {
+        "version": "3.0.0"
     },
     "hamcrest/hamcrest-php": {
         "version": "v2.0.0"
@@ -244,6 +271,9 @@
     },
     "lakion/mink-debug-extension": {
         "version": "v1.2.3"
+    },
+    "league/csv": {
+        "version": "9.1.4"
     },
     "league/uri": {
         "version": "5.3.0"
@@ -455,6 +485,12 @@
     "ramsey/uuid": {
         "version": "3.8.0"
     },
+    "react/promise": {
+        "version": "v2.7.0"
+    },
+    "ruflin/elastica": {
+        "version": "6.0.2"
+    },
     "sebastian/code-unit-reverse-lookup": {
         "version": "1.0.1"
     },
@@ -526,6 +562,9 @@
     },
     "squizlabs/php_codesniffer": {
         "version": "3.3.1"
+    },
+    "stefandoorn/sitemap-plugin": {
+        "version": "v1.0.10"
     },
     "stof/doctrine-extensions-bundle": {
         "version": "1.2",

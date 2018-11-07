@@ -1,0 +1,7 @@
+<div id="yokoso-banners" class="owl-carousel owl-theme">
+    {% for item in media %}
+        <div class="item">
+            {{ bitbag_cms_render_media(item.code) }}
+        </div>
+    {% endfor %}
+</div>

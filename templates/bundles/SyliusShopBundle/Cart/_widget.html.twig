@@ -1,13 +1,12 @@
 {% import "@SyliusShop/Common/Macro/money.html.twig" as money %}
 
-<div id="sylius-cart-button" class="ui circular cart button">
+<div id="sylius-cart-button" class="ui cart button item">
     {{ sonata_block_render_event('sylius.shop.partial.cart.summary.before_widget_content', {'cart': cart}) }}
 
     <i class="cart icon"></i>
     <span id="sylius-cart-total">
-        {{ money.convertAndFormat(cart.itemsTotal) }}
+        {{cart.items|length }}
     </span>
-    {% transchoice cart.items|length %}sylius.ui.item.choice{% endtranschoice %}
 
     {{ sonata_block_render_event('sylius.shop.partial.cart.summary.after_widget_content', {'cart': cart}) }}
 </div>
@@ -17,7 +16,7 @@
     {% if cart.empty %}
         {{ 'sylius.ui.your_cart_is_empty'|trans }}.
     {% else %}
-    <div class="ui list">
+    <div class="ui list yokoso-top-cart-content">
         {% for item in cart.items %}
         <div class="item">{{ item.quantity }} x <strong>{{ item.product }}</strong> {{ money.convertAndFormat(item.unitPrice) }}</div>
         {% endfor %}

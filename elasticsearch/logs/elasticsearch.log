@@ -1,0 +1,18 @@
+[2018-11-07T01:03:29,810][INFO ][o.e.m.j.JvmGcMonitorService] [QwBwM40] [gc][20985] overhead, spent [423ms] collecting in the last [1s]
+[2018-11-07T02:13:21,400][INFO ][o.e.x.m.MlDailyMaintenanceService] triggering scheduled [ML] maintenance tasks
+[2018-11-07T02:13:21,571][INFO ][o.e.x.m.a.TransportDeleteExpiredDataAction] [QwBwM40] Deleting expired data
+[2018-11-07T02:13:23,413][INFO ][o.e.x.m.a.TransportDeleteExpiredDataAction] [QwBwM40] Completed deletion of expired data
+[2018-11-07T02:13:23,414][INFO ][o.e.x.m.MlDailyMaintenanceService] Successfully completed [ML] maintenance tasks
+[2018-11-07T14:34:52,869][INFO ][o.e.c.m.MetaDataDeleteIndexService] [QwBwM40] [bitbag_shop_products_dev/pgsXVIYRSQKrLd0GVXFB8A] deleting index
+[2018-11-07T14:34:53,931][INFO ][o.e.c.m.MetaDataCreateIndexService] [QwBwM40] [bitbag_shop_products_dev] creating index, cause [api], templates [], shards [5]/[1], mappings [default]
+[2018-11-07T14:35:08,162][INFO ][o.e.c.m.MetaDataMappingService] [QwBwM40] [bitbag_shop_products_dev/MmwG54LGSv2i1O0-wBA0vw] update_mapping [default]
+[2018-11-07T14:35:08,411][INFO ][o.e.c.m.MetaDataMappingService] [QwBwM40] [bitbag_shop_products_dev/MmwG54LGSv2i1O0-wBA0vw] update_mapping [default]
+[2018-11-07T14:35:08,748][INFO ][o.e.c.m.MetaDataMappingService] [QwBwM40] [bitbag_shop_products_dev/MmwG54LGSv2i1O0-wBA0vw] update_mapping [default]
+[2018-11-07T14:35:08,962][INFO ][o.e.c.m.MetaDataMappingService] [QwBwM40] [bitbag_shop_products_dev/MmwG54LGSv2i1O0-wBA0vw] update_mapping [default]
+[2018-11-07T14:35:10,398][INFO ][o.e.c.m.MetaDataDeleteIndexService] [QwBwM40] [bitbag_option_taxons_dev/ER9u_cSqQcyVkfY1kBR5og] deleting index
+[2018-11-07T14:35:10,680][INFO ][o.e.c.m.MetaDataCreateIndexService] [QwBwM40] [bitbag_option_taxons_dev] creating index, cause [api], templates [], shards [5]/[1], mappings [default]
+[2018-11-07T14:35:21,928][INFO ][o.e.c.m.MetaDataMappingService] [QwBwM40] [bitbag_option_taxons_dev/oEosJm2LTryt2ZIZQBNPPg] update_mapping [default]
+[2018-11-07T14:35:22,853][INFO ][o.e.c.m.MetaDataDeleteIndexService] [QwBwM40] [bitbag_attribute_taxons_dev/_mHVb1YaR9CXnG1ij8KkCA] deleting index
+[2018-11-07T14:35:23,917][INFO ][o.e.c.m.MetaDataCreateIndexService] [QwBwM40] [bitbag_attribute_taxons_dev] creating index, cause [api], templates [], shards [5]/[1], mappings [default]
+[2018-11-07T14:35:36,919][INFO ][o.e.c.m.MetaDataMappingService] [QwBwM40] [bitbag_attribute_taxons_dev/K-vBe-LzSmWSSFI22go34g] update_mapping [default]
+[2018-11-07T14:40:20,684][INFO ][o.e.m.j.JvmGcMonitorService] [QwBwM40] [gc][46598] overhead, spent [295ms] collecting in the last [1s]

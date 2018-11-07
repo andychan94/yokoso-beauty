@@ -1,0 +1,66 @@
+{% extends '@SyliusShop/layout.html.twig' %}
+
+{% form_theme form '@SyliusUi/Form/theme.html.twig' %}
+
+{% import '@SyliusUi/Macro/messages.html.twig' as messages %}
+{% import '@SyliusUi/Macro/pagination.html.twig' as pagination %}
+
+{% block content %}
+    <h1 class="ui monster section dividing header">
+        {{ taxon.name }}
+        <div class="sub header">{{ taxon.description }}</div>
+    </h1>
+    {{ form_start(form, {'method': 'GET', 'attr': {'class': 'ui loadable form'}}) }}
+    <div class="ui stackable grid">
+        {#<div class="four wide column">
+            <div class="ui fluid vertical menu">
+                <div class="header item">
+                    {{ 'bitbag_sylius_elasticsearch_plugin.ui.filter_results'|trans }}
+                </div>
+                {% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig' %}
+            </div>
+        </div>#}
+
+        <div class="sixteen wide column">
+
+            {% if products|length > 0 %}
+            <div class="ui top attached menu">
+                <a class="item ui red yokoso-filter-button button" id="yokoso-sidebar-button">
+                    <i class="filter icon"></i> Фильтp
+                </a>
+                    {% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_sorting.html.twig' %}
+                {% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_pagination.html.twig' %}
+                    <div class="ui simple action input yokoso-perpage-search">
+                        <input type="text" id="other-name" name="name" placeholder="{{ 'sylius.ui.search'|trans }}">
+
+                        <button type="submit" class="ui primary icon button">
+                            <i class="search icon"></i>
+                        </button>
+                    </div>
+            </div>
+            <div class="ui bottom attached segment pushable" id="yokoso-bottom-segment">
+                <div class="ui left inline vertical sidebar menu" id="yokoso-sidebar">
+                    {% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig' %}
+                </div>
+                <div class="pusher">
+                    <div class="ui basic segment">
+                        <div class="ui centered grid" id="products">
+                            {% for product in products %}
+                                <div class="sixteen wide mobile eight wide tablet five wide computer centered column">
+                                    {% include '@SyliusShop/Product/_box.html.twig' %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <div class="ui hidden divider"></div>
+
+                        {{ pagination.simple(products) }}
+                        {% else %}
+                            {{ messages.info('sylius.ui.no_results_to_display') }}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ form_end(form, {'render_rest': false}) }}
+{% endblock %}
