@@ -2,6 +2,9 @@
 !/var/.gitignore
 
 /public/assets/admin
+!/public/assets/image/*
+!/public/assets/shop/*
+!/public/assets/shop/.gitignore
 /public/bundles
 /public/css
 /public/js
@@ -39,38 +42,3 @@
 /phpunit.xml
 ###< phpunit/phpunit ###
 
-
-.bash_history
-.bash_logout
-.bash_profile
-.bashrc
-.composer
-.contactemail
-.cpanel
-.cphorde
-.dns
-.emacs
-.gemrc
-.htpasswds
-.lastlogin
-.lesshst
-.spamassassinenable
-.spamboxenable
-.sqmailattac
-.sqmaildata
-.ssh
-.subaccounts
-.trash
-.viminfo
-.zshrc
-README.md
-access-logs
-certbot-auto
-error_log
-etc
-liteup.xyz
-mail
-perl5
-public_ftp
-ssl
-www

@@ -31,7 +31,7 @@
           <entry key="editorconfig" value="1" />
           <entry key="env" value="6" />
           <entry key="gif" value="1" />
-          <entry key="gitignore" value="10" />
+          <entry key="gitignore" value="12" />
           <entry key="html" value="2" />
           <entry key="ico" value="1" />
           <entry key="js" value="26" />
@@ -40,7 +40,7 @@
           <entry key="map" value="1" />
           <entry key="md" value="1" />
           <entry key="php" value="70" />
-          <entry key="png" value="1" />
+          <entry key="png" value="2" />
           <entry key="scss" value="24" />
           <entry key="sh" value="2" />
           <entry key="twig" value="279" />
@@ -53,12 +53,12 @@
         <counts>
           <entry key="CSS" value="16" />
           <entry key="HTML" value="2" />
-          <entry key="Image" value="3" />
+          <entry key="Image" value="4" />
           <entry key="JSON" value="11" />
           <entry key="JavaScript" value="26" />
           <entry key="Markdown" value="1" />
           <entry key="PHP" value="70" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="SCSS" value="24" />
           <entry key="Scratch" value="1" />
           <entry key="SourceMap" value="1" />
@@ -74,7 +74,7 @@
           <entry key="dummy" value="12" />
           <entry key="editorconfig" value="1" />
           <entry key="env" value="44" />
-          <entry key="gitignore" value="203" />
+          <entry key="gitignore" value="211" />
           <entry key="js" value="759" />
           <entry key="json" value="22" />
           <entry key="php" value="166" />
@@ -90,7 +90,7 @@
           <entry key="JSON" value="22" />
           <entry key="JavaScript" value="759" />
           <entry key="PHP" value="166" />
-          <entry key="PLAIN_TEXT" value="260" />
+          <entry key="PLAIN_TEXT" value="268" />
           <entry key="SCSS" value="2923" />
           <entry key="Twig" value="5396" />
           <entry key="YAML" value="1490" />
@@ -106,30 +106,8 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="e#12#40#0#Twig" expanded="true" />
-                <element signature="e#1240#1310#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/packages/prod/doctrine.yaml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/translations/messages.ru.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -141,13 +119,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/shop/js/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/images/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/images/logo.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -255,7 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticSearchPlugin/Shop/Product/index.html.twig" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/packages/fos_elastica.yaml" />
         <option value="$PROJECT_DIR$/public/assets/shop/css/style.css" />
@@ -306,6 +306,7 @@
         <option value="$PROJECT_DIR$/public/assets/shop/css/.gitignore" />
         <option value="$PROJECT_DIR$/public/assets/shop/js/yokoso.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/assets/images/.gitignore" />
       </list>
     </option>
   </component>
@@ -688,6 +689,14 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -808,11 +817,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/public/assets/shop/js" />
       <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/ProductReview" />
       <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Cart" />
       <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle" />
-      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Media" />
@@ -848,12 +857,12 @@
       <workItem from="1541148162533" duration="20767000" />
       <workItem from="1541246255931" duration="32086000" />
       <workItem from="1541474383714" duration="1432000" />
-      <workItem from="1541487047039" duration="60353000" />
+      <workItem from="1541487047039" duration="60594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133065000" />
+    <option name="totallyTimeSpent" value="133306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="176" y="23" width="1264" height="770" extended-state="0" />
@@ -892,22 +901,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/UiBundle/Resources/views/Form/theme.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#12#37#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusUiBundle/Form/theme.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/php/docker-entrypoint.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1238,13 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/shop/js/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/_sylius.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -1255,9 +1241,26 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/shop/js/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/images/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
