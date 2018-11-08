@@ -3,6 +3,7 @@
 
 /public/assets
 !/public/assets/shop/css/.gitignore
+!/public/assets/shop/js/.gitignore
 /public/bundles
 /public/css
 /public/js
