@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3145ed3-853d-4765-8476-5decf6f948e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="d3145ed3-853d-4765-8476-5decf6f948e8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -839,12 +837,12 @@
       <workItem from="1541148162533" duration="20767000" />
       <workItem from="1541246255931" duration="32086000" />
       <workItem from="1541474383714" duration="1432000" />
-      <workItem from="1541487047039" duration="58383000" />
+      <workItem from="1541487047039" duration="58929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131095000" />
+    <option name="totallyTimeSpent" value="131641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="176" y="23" width="1264" height="770" extended-state="0" />
