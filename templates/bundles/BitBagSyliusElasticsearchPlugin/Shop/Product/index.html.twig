@@ -26,12 +26,12 @@
             {% if products|length > 0 %}
             <div class="ui top attached menu">
                 <a class="item ui red yokoso-filter-button button" id="yokoso-sidebar-button">
-                    <i class="filter icon"></i> Фильтp
+                    <i class="cog icon"></i> {{ 'yokoso.filter'|trans }}
                 </a>
                     {% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_sorting.html.twig' %}
                 {% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_pagination.html.twig' %}
                     <div class="ui simple action input yokoso-perpage-search">
-                        <input type="text" id="other-name" name="name" placeholder="{{ 'sylius.ui.search'|trans }}">
+                        <input type="text" id="other-name" name="name" placeholder="{{ 'yokoso.search_in'|trans }}{{ taxon.name }}">
 
                         <button type="submit" class="ui primary icon button">
                             <i class="search icon"></i>

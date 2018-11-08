@@ -117,6 +117,9 @@ body.pushable #yokoso-content {
 
 .ui.breadcrumb a {
   color: $red-rgb;
+  &:hover {
+    color: #eb6887 !important;
+  }
 }
 
 a {
@@ -317,11 +320,27 @@ a:hover {
 }
 
 .yokoso-fixed-telegram {
+  padding: 7px !important;
+  background-color: #1f88be !important;
+  color: #fff !important;
   position: fixed;
-  bottom: 2em;
-  right: 2em;
+  bottom: 5em;
+  border: 2px #fff solid !important;
+  right: 1em;
   z-index: 99999;
-  opacity: 0.8 !important;
+  opacity: 0.9 !important;
+}
+
+.yokoso-fixed-cart {
+  padding: 7px !important;
+  background-color: #fff !important;
+  color: $pink-rgb !important;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 99999;
+  opacity: 0.9 !important;
+  border: 2px $pink-rgb solid !important;
 }
 
 .yokoso-filter-button {
@@ -423,4 +442,12 @@ a:hover {
       background: $pink-rgb-lightest;
     }
   }
+}
+
+.ui.top.right.popup:before {
+  bottom: -.30714286em;
+  right: 1em;
+  top: auto;
+  left: auto;
+  margin-left: 0;
 }

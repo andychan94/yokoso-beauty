@@ -1,22 +1,8 @@
 {% extends '@SyliusShop/layout.html.twig' %}
-{% block stylesheets %}
-    {% include '@SyliusUi/_stylesheets.html.twig' with {'path': 'owlcarousel/owl.carousel.min.css'} %}
-    {% include '@SyliusUi/_stylesheets.html.twig' with {'path': 'owlcarousel/owl.theme.default.min.css'} %}
-    {{ parent() }}
-{% endblock %}
-{% block javascripts %}
-    {{ parent() }}
-    {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'assets/shop/js/jquery.min.js'} %}
-    {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'owlcarousel/owl.carousel.min.js'} %}
-    {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'assets/shop/js/slider.js'} %}
-{% endblock %}
 {% block content %}
     {{ render(path('bitbag_sylius_cms_plugin_shop_media_index_by_section_code', {'sectionCode' : 'gallery', 'template' : '@SyliusShop/_gallery.html.twig'})) }}
     <div class="ui hidden divider"></div>
-    <h2 class="ui horizontal section divider header">
-        {{ 'sylius.ui.latest_products'|trans }}
-    </h2>
-    {{ render(url('sylius_shop_partial_product_index_latest', {'count': 6, 'template': '@SyliusShop/Product/_horizontalList.html.twig'})) }}
+    {% include '@SyliusShop/_newProducts.html.twig' %}
     <div class="ui hidden divider"></div>
     <h2 class="ui horizontal section divider header">
         {{ 'yokoso.about'|trans }}

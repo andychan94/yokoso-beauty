@@ -2,142 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3145ed3-853d-4765-8476-5decf6f948e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/_state/global-34.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/_state/node-5.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/0/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/0/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/0/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/1/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/1/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/1/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/2/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/2/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/2/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/3/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/3/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/3/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/4/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/4/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/4/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/7WdtLc3vRuqIRfV7UoBW9A/_state/state-18.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/0/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/0/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/0/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/0/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/0/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/1/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/1/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/1/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/1/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/1/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/1/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/1/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/2/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/2/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/2/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/2/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/2/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/2/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/2/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/3/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/3/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/3/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/3/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/3/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/3/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/3/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/4/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/4/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/4/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/4/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/4/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/4/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/4/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/K-vBe-LzSmWSSFI22go34g/_state/state-4.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/0/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/0/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/0/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/0/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/0/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/0/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/0/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/1/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/1/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/1/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/1/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/1/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/1/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/1/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/2/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/2/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/2/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/2/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/2/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/2/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/2/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/3/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/3/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/3/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/3/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/3/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/3/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/3/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/4/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/4/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/4/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/4/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/4/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/4/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/4/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/MmwG54LGSv2i1O0-wBA0vw/_state/state-7.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/0/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/0/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/0/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/1/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/1/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/1/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/2/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/2/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/2/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/3/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/3/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/3/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/4/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/4/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/4/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/jFIfFhj0TyyI8DfM1ERwGQ/_state/state-14.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/0/_state/state-1.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/0/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/0/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/1/_state/state-1.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/1/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/1/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/2/_state/state-1.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/2/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/2/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/3/_state/state-1.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/3/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/3/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/4/_state/state-1.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/4/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/4/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/mRauMA4RRxOBkP5oUGDwZg/_state/state-8.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/0/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/0/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/0/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/0/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/0/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/1/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/1/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/1/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/1/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/1/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/2/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/2/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/2/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/2/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/2/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/2/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/2/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/3/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/3/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/3/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/3/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/3/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/3/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/3/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/4/_state/state-0.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/4/translog/translog-1.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/4/translog/translog-1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/4/translog/translog-2.ckp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/4/translog/translog-2.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/4/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/4/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/oEosJm2LTryt2ZIZQBNPPg/_state/state-4.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/0/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/0/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/0/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/1/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/1/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/1/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/2/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/2/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/2/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/3/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/3/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/3/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/4/_state/state-2.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/4/translog/translog.ckp" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/4/translog/translog.ckp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/data/nodes/0/indices/yUE6jiBqTw2YwVDHIikEIA/_state/state-13.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/logs/elasticsearch.log" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/logs/elasticsearch.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/logs/elasticsearch_deprecation.log" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/logs/elasticsearch_deprecation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/logs/gc.log" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/logs/gc.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Cart/_floatingWidget.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show/_associations.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show/_breadcrumb.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_newProducts.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Homepage/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Homepage/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/messages.ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.ru.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,41 +42,43 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="15" />
+          <entry key="css" value="16" />
           <entry key="dist" value="2" />
           <entry key="editorconfig" value="1" />
           <entry key="env" value="6" />
           <entry key="gif" value="1" />
           <entry key="gitignore" value="6" />
+          <entry key="html" value="2" />
           <entry key="ico" value="1" />
-          <entry key="js" value="21" />
+          <entry key="js" value="23" />
           <entry key="json" value="10" />
           <entry key="lock" value="3" />
           <entry key="map" value="1" />
           <entry key="php" value="70" />
           <entry key="png" value="1" />
-          <entry key="scss" value="22" />
+          <entry key="scss" value="24" />
           <entry key="sh" value="2" />
-          <entry key="twig" value="251" />
+          <entry key="twig" value="279" />
           <entry key="xml" value="1" />
-          <entry key="yaml" value="52" />
-          <entry key="yml" value="61" />
+          <entry key="yaml" value="57" />
+          <entry key="yml" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="15" />
+          <entry key="CSS" value="16" />
+          <entry key="HTML" value="2" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="21" />
+          <entry key="JavaScript" value="23" />
           <entry key="PHP" value="70" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="SCSS" value="22" />
+          <entry key="SCSS" value="24" />
           <entry key="Scratch" value="1" />
           <entry key="SourceMap" value="1" />
-          <entry key="Twig" value="251" />
+          <entry key="Twig" value="279" />
           <entry key="XML" value="1" />
-          <entry key="YAML" value="112" />
+          <entry key="YAML" value="123" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
@@ -208,25 +89,25 @@
           <entry key="editorconfig" value="1" />
           <entry key="env" value="44" />
           <entry key="gitignore" value="65" />
-          <entry key="js" value="742" />
+          <entry key="js" value="753" />
           <entry key="json" value="22" />
           <entry key="php" value="166" />
-          <entry key="scss" value="2807" />
-          <entry key="twig" value="5124" />
-          <entry key="yaml" value="251" />
-          <entry key="yml" value="1076" />
+          <entry key="scss" value="2923" />
+          <entry key="twig" value="5396" />
+          <entry key="yaml" value="290" />
+          <entry key="yml" value="1200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4" />
           <entry key="JSON" value="22" />
-          <entry key="JavaScript" value="742" />
+          <entry key="JavaScript" value="753" />
           <entry key="PHP" value="166" />
           <entry key="PLAIN_TEXT" value="122" />
-          <entry key="SCSS" value="2807" />
-          <entry key="Twig" value="5124" />
-          <entry key="YAML" value="1327" />
+          <entry key="SCSS" value="2923" />
+          <entry key="Twig" value="5396" />
+          <entry key="YAML" value="1490" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -238,89 +119,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/UiBundle/Resources/views/Form/theme.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#12#37#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusUiBundle/Form/theme.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="392" column="36" selection-end-line="426" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/php/docker-entrypoint.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-382" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/shop/js/jquery.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="1" column="85306" selection-end-line="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/shop/js/slider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="24" column="7" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/shop/js/yokoso.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="25" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+              <folding>
+                <element signature="e#12#40#0#Twig" expanded="true" />
+                <element signature="e#1240#1310#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/translations/messages.ru.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -335,12 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>card</find>
-      <find>list</find>
-      <find>header</find>
-      <find>%PUB</find>
-      <find>public</find>
-      <find>public_html</find>
       <find>locale:</find>
       <find>prod</find>
       <find>test</find>
@@ -365,6 +177,12 @@
       <find>pusher</find>
       <find>php</find>
       <find>example.com</find>
+      <find>mail</find>
+      <find>breadc</find>
+      <find>fixed</find>
+      <find>sylius-cart-button</find>
+      <find>cart-button</find>
+      <find>fix</find>
     </findStrings>
     <replaceStrings>
       <replace>public_html</replace>
@@ -375,7 +193,6 @@
       <dir>$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources</dir>
       <dir>$PROJECT_DIR$/vendor/bitbag/elasticsearch-plugin/src</dir>
       <dir>$PROJECT_DIR$/vendor/bitbag/elasticsearch-plugin/src/Resources</dir>
-      <dir>$PROJECT_DIR$/config</dir>
       <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/config/packages</dir>
       <dir>$PROJECT_DIR$</dir>
@@ -383,6 +200,8 @@
       <dir>$PROJECT_DIR$/vendor/bitbag/elasticsearch-plugin</dir>
       <dir>$PROJECT_DIR$/templates/bundles/SyliusShopBundle</dir>
       <dir>$PROJECT_DIR$/vendor/sylius/sylius</dir>
+      <dir>$PROJECT_DIR$/config</dir>
+      <dir>$PROJECT_DIR$/public</dir>
       <dir>$PROJECT_DIR$/vendor</dir>
     </dirStrings>
   </component>
@@ -395,13 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Common/Form/_address.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Common/_address.html.twig" />
-        <option value="$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Checkout/Address/_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Common/Form/_address.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Checkout/_support.html.twig" />
-        <option value="$PROJECT_DIR$/docker-compose.prod.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/packages/liip_imagine.yaml" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/.editorconfig" />
@@ -415,29 +227,20 @@
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusWishlistPlugin/_addToWishlist.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusWishlistPlugin/_wishlistHeader.html.twig" />
-        <option value="$PROJECT_DIR$/translations/messages.ru.yml" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_sorting.html.twig" />
         <option value="$PROJECT_DIR$/public/assets/shop/js/yokoso.js" />
-        <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_pagination.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_box.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/login.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Login/_register.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusWishlistPlugin/wishlist.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_header.html.twig" />
-        <option value="$PROJECT_DIR$/config/packages/_sylius.yaml" />
         <option value="$PROJECT_DIR$/public/assets/shop/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_horizontalList.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Media/Show/image.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_gallery.html.twig" />
-        <option value="$PROJECT_DIR$/public/assets/shop/js/slider.js" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Block/show.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Page/Show/show.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Homepage/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_footer.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email/contactRequest.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email/passwordReset.html.twig" />
@@ -445,7 +248,23 @@
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email/userRegistration.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email/verification.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusUiBundle/Form/theme.html.twig" />
+        <option value="$PROJECT_DIR$/config/packages/_sylius.yaml" />
+        <option value="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show/_breadcrumb.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_newProducts.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show/_associations.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Homepage/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_horizontalList.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_newProducts.html.twig" />
+        <option value="$PROJECT_DIR$/public/assets/shop/js/slider.js" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Cart/_floatingWidget.html.twig" />
         <option value="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/ProductReview/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig" />
+        <option value="$PROJECT_DIR$/translations/messages.ru.yml" />
+        <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig" />
       </list>
     </option>
   </component>
@@ -787,15 +606,165 @@
               <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="SyliusUiBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
               <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="SyliusUiBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
+              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Shop" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Shop" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductReview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="translations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-japan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-japan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductReview" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -821,11 +790,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/bundles/SyliusUiBundle/Form" />
-      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email" />
-      <recent name="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Block" />
-      <recent name="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Page/Show" />
-      <recent name="$PROJECT_DIR$/public/owlcarousel" />
+      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/ProductReview" />
+      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Cart" />
+      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle" />
+      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Media" />
@@ -861,15 +830,16 @@
       <workItem from="1541148162533" duration="20767000" />
       <workItem from="1541246255931" duration="32086000" />
       <workItem from="1541474383714" duration="1432000" />
-      <workItem from="1541487047039" duration="48382000" />
+      <workItem from="1541487047039" duration="58018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121094000" />
+    <option name="totallyTimeSpent" value="130730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="176" y="23" width="1264" height="770" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -905,248 +875,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Product/_horizontalList.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusWishlistPlugin/wishlist.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <element signature="e#66#96#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Checkout/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Controller/HomepageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-          <folding>
-            <element signature="e#954#992#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bundles.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/_sylius.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ResourceBundle/Controller/ResourceController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Resources/config/routing/shop/media.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Resources/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Resources/views/Shop/Media/Show/image.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Resources/views/Shop/Media/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Homepage/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/owlcarousel/owl.carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/glide/css/glide.core.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/glide/glide.modular.esm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/glide/css/glide.theme.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/glide/glide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="201" column="22" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/owlcarousel/ajax-loader.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_gallery.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Resources/views/Shop/Block/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Resources/views/Shop/Block/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Twig/Extension/RenderContentExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="104" selection-start-line="36" selection-start-column="104" selection-end-line="36" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Page/Show/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Media/Show/image.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="140" lean-forward="true" selection-start-line="31" selection-start-column="140" selection-end-line="31" selection-end-column="140" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#p#1;n#div#2;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_horizontalList.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Block/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Homepage/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#85#117#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_social.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="82" column="50" selection-start-line="82" selection-end-line="82" selection-end-column="50" />
-          <folding>
-            <element signature="e#3490#3522#0#Twig" expanded="true" />
-            <element signature="e#3582#3614#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email/contactRequest.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email/orderConfirmation.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email/passwordReset.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1194,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="392" column="36" selection-end-line="426" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/php/docker-entrypoint.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1209,12 +930,18 @@
         <state relative-caret-position="-382" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/CoreBundle/Resources/config/app/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="315">
+          <caret line="21" column="66" lean-forward="true" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/shop/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1226,25 +953,295 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/shop/js/slider.js">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="24" column="7" selection-end-line="54" />
+        <state relative-caret-position="270">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/CoreBundle/Resources/config/app/sylius/sylius_mailer.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/swiftmailer.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/CoreBundle/Resources/config/app/sylius.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/_sylius.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email/contactRequest.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/prod/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Email/orderConfirmation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/prod/monolog.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Product/Show/_breadcrumb.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="79" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Product/Show/_tabs.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Product/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+            <element signature="e#568#610#0#Twig" expanded="true" />
+            <element signature="e#1067#1108#0#Twig" expanded="true" />
+            <element signature="e#2291#2331#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show/_association.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="73" lean-forward="true" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+          <folding>
+            <element signature="e#176#221#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Product/Show/_associations.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="4" column="140" selection-start-line="4" selection-start-column="140" selection-end-line="4" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show/_breadcrumb.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="142" selection-start-line="16" selection-start-column="142" selection-end-line="16" selection-end-column="142" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_horizontalList.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/shop/js/yokoso.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" selection-end-line="47" />
+        <state relative-caret-position="254">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/public/assets/shop/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show/_associations.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#255#289#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_newProducts.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Login/_register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Register/_header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Cart/_widget.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Cart/_widget.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#11#51#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/semantic-ui-css/semantic.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="355" column="7" selection-start-line="355" selection-start-column="7" selection-end-line="355" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cerberus-responsive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="157" column="31" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/ProductReview/_list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#11#45#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Homepage/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#283#317#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="89" column="113" selection-start-line="89" selection-start-column="113" selection-end-line="89" selection-end-column="113" />
+          <folding>
+            <element signature="e#974#1006#0#Twig" expanded="true" />
+            <element signature="e#1077#1109#0#Twig" expanded="true" />
+            <element signature="e#3490#3522#0#Twig" expanded="true" />
+            <element signature="e#3582#3614#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Cart/_floatingWidget.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/ProductReview/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/ProductReview/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6735">
+          <caret line="448" column="10" selection-start-line="448" selection-start-column="10" selection-end-line="448" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/messages.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+            <element signature="e#1240#1310#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

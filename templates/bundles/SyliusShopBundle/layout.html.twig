@@ -18,6 +18,8 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+        {% include '@SyliusUi/_stylesheets.html.twig' with {'path': 'owlcarousel/owl.carousel.min.css'} %}
+        {% include '@SyliusUi/_stylesheets.html.twig' with {'path': 'owlcarousel/owl.theme.default.min.css'} %}
         {% include '@SyliusUi/_stylesheets.html.twig' with {'path': 'assets/shop/css/style.css'} %}
         {% include '@SyliusUi/_stylesheets.html.twig' with {'path': 'assets/shop/css/yokoso.css'} %}
         {% include '@SyliusUi/_stylesheets.html.twig' with {'path': 'assets/shop/css/button.min.css'} %}
@@ -38,21 +40,22 @@
 {{ sonata_block_render_event('sylius.shop.layout.before_body') }}
 <div id="yokoso-content">
     {% block top %}
-    <form action="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': 'category'}) }}" method="get">
-        <div id="menu" class="ui large inverted yokoso-red-bg menu">
-            {{ sonata_block_render_event('sylius.shop.layout.before_currency_switcher') }}
-            {{ render(controller('sylius.controller.shop.currency_switch:renderAction')) }}
-            {{ render(controller('sylius.controller.shop.locale_switch:renderAction')) }}
-            {#<a href="https://t.me/uzjapan" class="item" target="_blank">
-                <i class="telegram icon ui circular yokoso-top-social"></i>
-            </a>#}
-            {{ sonata_block_render_event('sylius.shop.layout.before_security_widget') }}
+        <form action="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': 'category'}) }}"
+              method="get">
+            <div id="menu" class="ui large inverted yokoso-red-bg menu">
+                {{ sonata_block_render_event('sylius.shop.layout.before_currency_switcher') }}
+                {{ render(controller('sylius.controller.shop.currency_switch:renderAction')) }}
+                {{ render(controller('sylius.controller.shop.locale_switch:renderAction')) }}
+                {#<a href="https://t.me/uzjapan" class="item" target="_blank">
+                    <i class="telegram icon ui circular yokoso-top-social"></i>
+                </a>#}
+                {{ sonata_block_render_event('sylius.shop.layout.before_security_widget') }}
 
-            {{ render(controller('sylius.controller.shop.security_widget:renderAction')) }}
+                {{ render(controller('sylius.controller.shop.security_widget:renderAction')) }}
 
-            {{ sonata_block_render_event('sylius.shop.layout.after_security_widget') }}
-        </div>
-    </form>
+                {{ sonata_block_render_event('sylius.shop.layout.after_security_widget') }}
+            </div>
+        </form>
     {% endblock %}
 
     <div class="ui container">
@@ -80,12 +83,17 @@
         {% include '@SyliusShop/_footer.html.twig' %}
     {% endblock %}
 </div>
-<a href="https://t.me/diyorajapan" target="_blank" class="ui circular linkedin icon button yokoso-fixed-telegram" data-tooltip="{{ 'yokoso.send_telegram_message'|trans }}" data-inverted  data-position="top right">
-    <i class="telegram icon big"></i>
+<a href="https://t.me/diyorajapan" target="_blank" class="ui circular linkedin icon button yokoso-fixed-telegram"
+   data-tooltip="{{ 'yokoso.send_telegram_message'|trans }}" data-inverted data-position="top right">
+    <i class="telegram plane icon big"></i>
 </a>
+{{ render(url('sylius_shop_partial_cart_summary', {'template': '@SyliusShop/Cart/_floatingWidget.html.twig'})) }}
 {% block javascripts %}
     {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'assets/shop/js/app.js'} %}
     {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'assets/shop/js/yokoso.js'} %}
+    {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'assets/shop/js/jquery.min.js'} %}
+    {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'owlcarousel/owl.carousel.min.js'} %}
+    {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'assets/shop/js/slider.js'} %}
 
     {{ sonata_block_render_event('sylius.shop.layout.javascripts') }}
 {% endblock %}

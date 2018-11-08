@@ -13,7 +13,9 @@ yokoso:
   send_telegram_message: 'Написать нам в телеграм'
   to_cart: 'В корзину'
   to_wishlist: 'В избранное'
-  filter: 'Фильтр'
+  filter: 'Параметры'
+  search_in: 'Поиск в '
+  search_all_inventory: 'Поиск по сайту'
 sylius:
   ui:
     hello: 'Здравствуйте,'

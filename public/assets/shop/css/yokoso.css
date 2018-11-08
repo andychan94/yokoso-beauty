@@ -78,6 +78,8 @@ body.pushable #yokoso-content {
 
 .ui.breadcrumb a {
   color: #D62E47; }
+  .ui.breadcrumb a:hover {
+    color: #eb6887 !important; }
 
 a {
   color: #D62E47;
@@ -224,11 +226,26 @@ a:hover {
   color: #3c3c3c !important; }
 
 .yokoso-fixed-telegram {
+  padding: 7px !important;
+  background-color: #1f88be !important;
+  color: #fff !important;
   position: fixed;
-  bottom: 2em;
-  right: 2em;
+  bottom: 5em;
+  border: 2px #fff solid !important;
+  right: 1em;
   z-index: 99999;
-  opacity: 0.8 !important; }
+  opacity: 0.9 !important; }
+
+.yokoso-fixed-cart {
+  padding: 7px !important;
+  background-color: #fff !important;
+  color: #eb6887 !important;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 99999;
+  opacity: 0.9 !important;
+  border: 2px #eb6887 solid !important; }
 
 .yokoso-filter-button {
   background: linear-gradient(120deg, #D62E47, rgba(235, 104, 135, 0.8)) !important;
@@ -299,5 +316,12 @@ a:hover {
     background: #D62E47; }
   .owl-theme .owl-dots .owl-dot span {
     background: rgba(235, 104, 135, 0.7); }
+
+.ui.top.right.popup:before {
+  bottom: -.30714286em;
+  right: 1em;
+  top: auto;
+  left: auto;
+  margin-left: 0; }
 
 /*# sourceMappingURL=yokoso.css.map */
