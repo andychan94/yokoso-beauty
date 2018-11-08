@@ -1,0 +1,13 @@
+{% block subject %}
+    Запрос на сообщение
+{% endblock %}
+
+{% block body %}
+    {% autoescape %}
+        От: {{ data.email }}
+        <br/>
+        Содержимое:
+        <br/>
+        "{{ data.message|nl2br }}"
+    {% endautoescape %}
+{% endblock %}

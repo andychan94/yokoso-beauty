@@ -1,0 +1,41 @@
+<footer id="footer" class="ui inverted vertical footer segment">
+    <div class="ui container">
+        <div class="ui inverted divided equal height stackable grid">
+            {{ sonata_block_render_event('sylius.shop.layout.before_footer') }}
+
+            <div class="three wide column">
+                <h4 class="ui inverted header">{{ 'sylius.ui.your_store'|trans }}</h4>
+                <div class="ui inverted link list">
+                    <a href="{{ path('sylius_shop_homepage') }}" class="item">{{ 'yokoso.home'|trans }}</a>
+                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'about', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'terms-of-use', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'policy', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+                    <a href="{{ path('sylius_shop_contact_request') }}"
+                       class="item">{{ 'sylius.ui.contact_us'|trans }}</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">{{ 'sylius.ui.customer_care'|trans }}</h4>
+                <div class="ui inverted link list">
+                    <a href="{{ path('sylius_shop_contact_request') }}"
+                       class="item">{{ 'sylius.ui.contact_us'|trans }}</a>
+                    <a href="{{ path('bitbag_sylius_cms_plugin_shop_frequently_asked_question_index') }}"
+                       class="item">{{ 'yokoso.faq'|trans }}</a>
+                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'how-to-order', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'how-to-pay', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'shipment', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+                </div>
+            </div>
+            <div class="eight wide column">
+                <h4 class="ui inverted header">&copy; {{ 'sylius.ui.your_store'|trans }}</h4>
+                <p class="inverted"><i class="map marker alternate icon"></i> Nagoya, Japan</p>
+                <p class="inverted">{{ 'sylius.ui.powered_by'|trans }} <span style="color: #fff; text-decoration: underline">Diyora</span>.</p>
+                <div class="ui list yokoso-social">
+                    {% include '@SyliusShop/_social.html.twig' %}
+                </div>
+            </div>
+
+            {{ sonata_block_render_event('sylius.shop.layout.after_footer') }}
+        </div>
+    </div>
+</footer>

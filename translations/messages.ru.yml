@@ -1,0 +1,126 @@
+telegram_username: 'Ваше имя польователя в Telegram'
+telegram_username_short: Telegram
+Similar products: 'Похожие товары'
+
+yokoso:
+  home: 'Главная'
+  about: 'О нас'
+  how-works: 'Как это работает?'
+  faq: 'FAQ'
+  delivery_payment_msg: 'Только для <b>Узбекистана</b> возможна оплата при доставке товара'
+  delivery_payment_msg_top: 'Заказы в Узбекистан можно оплатить при доставке!'
+  search_inventory: 'Я хочу найти...'
+  send_telegram_message: 'Написать нам в телеграм'
+  to_cart: 'В корзину'
+  to_wishlist: 'В избранное'
+  filter: 'Параметры'
+  search_in: 'Поиск в '
+  search_all_inventory: 'Поиск по сайту'
+sylius:
+  ui:
+    hello: 'Здравствуйте,'
+    name: 'Название'
+    home: 'Главная'
+    media: 'Фотки'
+    show: 'Показать'
+    edit_your_personal_information: 'Персональные данные'
+    sort: 'Сортировать'
+    by_position: 'По порядку'
+    powered_by: 'Разработано by'
+    your_store: 'Yokoso Beauty'
+    checking_out_as: 'Заказать как'
+    call_us: 'Свяжитесь с нами'
+    subtotal: 'Итого'
+    checkout: 'Оформить заказ'
+  form:
+    taxon:
+      name: 'Название'
+    product_variant:
+      name: 'Название'
+    attribute:
+      name: 'Название'
+    option:
+      name: 'Название'
+    payment_method:
+      name: 'Название'
+    shipping_method:
+      name: 'Название'
+
+bitbag_sylius_wishlist_plugin:
+  ui:
+    wishlist: Избранное
+    add_to_wishlist: Добавить в избранное
+    remove_from_wishlist: Убрать из избранного
+    your_wishlist_is_empty: Пусто
+    added_wishlist_item: Добавлено.
+    removed_wishlist_item: Удалено.
+    add_items_to_cart: Добавить товары из избранного в корзину.
+    added_to_cart: Добавлено.
+
+bitbag_sylius_cms_plugin:
+  ui:
+    blocks: Блоки
+    pages: Страницы
+    content_management: Контент
+    cms: Управление контентом
+    enabled: Вкл
+    blocks_header: Блоки
+    blocks_subheader: Управление блоками
+    pages_header: Страницы
+    pages_subheader: Управление страницами
+    products: Товары
+    page_related_products: Cопутствующие товары
+    name: Имя
+    slug: Путь
+    meta_keywords: Ключевые слова (мета)
+    meta_description: Описание (мета)
+    content: Содержимое
+    faq: FAQ
+    code: Код
+    contents: Содержит
+    images: Изображения
+    image: Изображение
+    link: Ссылка
+    faq_header: FAQ
+    faq_subheader: Управление часто задаваемыми вопросами
+    frequently_asked_questions: Часто задаваемые вопросы
+    question: Вопрос
+    answer: Ответ
+    sections: Разделы
+    sections_header: Разделы
+    sections_subheader: Управление разделами
+    position: Позиция
+    channels: Каналы
+    preview: Предпросмотр
+    download: Загрузить
+    name_when_linked: Название в списке
+    description_when_linked: Описание в списке
+    media: Медиа
+    media_header: Медиа
+    media_subheader: Управление цифровым контентом
+    type: Тип
+    file: Файл
+    alt: Альт
+    description: Описание
+    file_provider: Файл
+    image_provider: Изображение
+    video_provider: Видео
+    read_more: Подробнее
+    breadcrumb: Хлебные крошки
+    import: Импорт
+    csv_file: CSV файл
+    successfully_imported: Данные успешно импортированы
+
+bitbag_sylius_elasticsearch_plugin:
+  ui:
+    min_price: Цена мин
+    max_price: Цена макс
+    filter_results: Фильтр
+    filter: Сортировать
+    sort: Сортировать по
+    bestsellers: Самые популярные
+    newest: Новые
+    oldest: Старые
+    most_expensive: Самые дорогие
+    cheapest: Самые дешевые
+    per_page: Показать
