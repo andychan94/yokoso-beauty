@@ -2,8 +2,8 @@
     {% import _self as macros %}
 
     {% if taxon.children|length > 0 %}
-        <div class="ui dropdown item">
-            <span class="text">{{ taxon.name }}</span>
+        <div class="ui pointing dropdown link item">
+            <span class="text"><a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}" tabindex="0">{{ taxon.name }}</a></span>
             <i class="dropdown icon"></i>
             <div class="menu">
                 {% for childTaxon in taxon.children %}

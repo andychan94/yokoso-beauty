@@ -121,7 +121,6 @@ body.pushable #yokoso-content {
     color: #eb6887 !important;
   }
 }
-
 a {
   color: $red-rgb;
   text-decoration: none;
@@ -248,6 +247,7 @@ a:hover {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   margin: 0 !important;
+
   background: linear-gradient(120deg, $pink-rgb, $red-rgb);
   * {
     color: #fff !important;
@@ -450,4 +450,15 @@ a:hover {
   top: auto;
   left: auto;
   margin-left: 0;
+}
+
+.ui.menu .dropdown.item .menu > .item:hover {
+  span a {
+    color: #fff !important;
+  }
+  color: #fff !important;
+}
+.ui.dropdown.item.active {
+  background-color: #eb6887 !important;
+  color: #fff !important;
 }

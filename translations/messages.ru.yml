@@ -15,7 +15,8 @@ yokoso:
   to_wishlist: 'В избранное'
   filter: 'Параметры'
   search_in: 'Поиск в '
-  search_all_inventory: 'Поиск по сайту'
+  search_all_inventory: 'Поиск по каталогу'
+  all_inventory: 'Весь каталог'
 sylius:
   ui:
     hello: 'Здравствуйте,'
@@ -117,7 +118,7 @@ bitbag_sylius_elasticsearch_plugin:
     max_price: Цена макс
     filter_results: Фильтр
     filter: Сортировать
-    sort: Сортировать по
+    sort: Сортировка
     bestsellers: Самые популярные
     newest: Новые
     oldest: Старые

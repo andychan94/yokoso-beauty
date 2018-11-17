@@ -3,4 +3,4 @@ liip_imagine:
         default:
             web_path:
                 web_root: "%kernel.project_dir%/public"
-                cache_prefix: "media/cache"
+                cache_prefix: "media/image"
