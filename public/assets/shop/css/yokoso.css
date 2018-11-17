@@ -326,7 +326,7 @@ a:hover {
 
 .ui.menu .dropdown.item .menu > .item:hover {
   color: #fff !important; }
-  .ui.menu .dropdown.item .menu > .item:hover > span a, .ui.menu .dropdown.item .menu > .item:hover i {
+  .ui.menu .dropdown.item .menu > .item:hover > span a, .ui.menu .dropdown.item .menu > .item:hover > i {
     color: #fff !important; }
 
 .ui.dropdown.item.active {
