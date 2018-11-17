@@ -42,3 +42,4 @@
 /phpunit.xml
 ###< phpunit/phpunit ###
 
+.idea/workspace.xml

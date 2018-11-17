@@ -326,11 +326,15 @@ a:hover {
 
 .ui.menu .dropdown.item .menu > .item:hover {
   color: #fff !important; }
-  .ui.menu .dropdown.item .menu > .item:hover span a {
+  .ui.menu .dropdown.item .menu > .item:hover > span a, .ui.menu .dropdown.item .menu > .item:hover i {
     color: #fff !important; }
 
 .ui.dropdown.item.active {
   background-color: #eb6887 !important;
   color: #fff !important; }
+
+@media only screen and (max-width: 767px) {
+  #yokoso-nav .ui.dropdown .menu .left.menu, #yokoso-nav .ui.dropdown > .left.menu .menu {
+    margin-top: 2.5em !important; } }
 
 /*# sourceMappingURL=yokoso.css.map */
