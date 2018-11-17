@@ -36,6 +36,8 @@ sylius:
   form:
     taxon:
       name: 'Название'
+    product:
+      name: 'Название'
     product_variant:
       name: 'Название'
     attribute:
