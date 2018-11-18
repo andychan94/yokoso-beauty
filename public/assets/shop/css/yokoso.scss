@@ -507,7 +507,6 @@ a:hover {
   padding-right: unset !important;
 }
 
-
 .treemenu {
   float: left;
   width: 300px;
@@ -519,7 +518,10 @@ a:hover {
       &.styled {
         &.accordion {
           > .title:not(:first-child) {
-            border-top: 1px solid rgba(255,255,255,.7);
+            border-top: 1px solid rgba(255, 255, 255, .7);
+          }
+          .content:not(:first-child) {
+            border-top: 1px solid rgba(255, 255, 255, .7);
           }
         }
       }
@@ -536,24 +538,18 @@ a:hover {
         box-shadow: none;
         padding: 0;
         margin: 0;
-
-        .accordion .title, .title {
+        .accordion .title, .title, .content {
           border-top: none;
           padding: .35em 0 .35em 1em;
           margin: 0;
           color: rgba(255, 255, 255, 0.8);
         }
-
         .accordion .content, .content {
-          margin-left: 1.75rem;
-          padding: 0;
-
           .subtitle {
             margin: 0 1.75rem 0 0;
             padding: .35em 0;
             color: rgba(255, 255, 255, 0.5);
             font-size: 0.9rem;
-
             &.hide {
               display: none;
             }
@@ -563,6 +559,11 @@ a:hover {
     }
   }
 }
+.sidebar-help {
+  margin: 0.5em 0 0 0.35em !important;
+  color: rgba(255,255,255,0.7) !important;
+}
+
 .ui.inverted.menu {
   background: $red-rgba !important;
 }

@@ -3,9 +3,9 @@
 
     {% if taxon.children|length > 0 %}
         <div class="title">
-            <i class="dropdown icon"></i>
             <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">
                 {{ taxon.name }}
+                <i class="dropdown icon"></i>
             </a>
         </div>
         <div class="content">
@@ -16,7 +16,7 @@
             </div>
         </div>
     {% else %}
-        <div class="title">
+        <div class="content">
             <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">{{ taxon.name }}</a>
         </div>
     {% endif %}

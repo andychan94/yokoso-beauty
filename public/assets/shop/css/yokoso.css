@@ -358,6 +358,8 @@ a:hover {
   padding-top: .5em; }
   .treemenu.boxed .ui.styled.accordion > .title:not(:first-child) {
     border-top: 1px solid rgba(255, 255, 255, 0.7); }
+  .treemenu.boxed .ui.styled.accordion .content:not(:first-child) {
+    border-top: 1px solid rgba(255, 255, 255, 0.7); }
   .treemenu .ui * {
     color: #fff; }
   .treemenu .ui.styled.accordion, .treemenu .ui.styled.accordion .accordion {
@@ -365,21 +367,22 @@ a:hover {
     box-shadow: none;
     padding: 0;
     margin: 0; }
-    .treemenu .ui.styled.accordion .accordion .title, .treemenu .ui.styled.accordion .title, .treemenu .ui.styled.accordion .accordion .accordion .title, .treemenu .ui.styled.accordion .accordion .title {
+    .treemenu .ui.styled.accordion .accordion .title, .treemenu .ui.styled.accordion .title, .treemenu .ui.styled.accordion .content, .treemenu .ui.styled.accordion .accordion .accordion .title, .treemenu .ui.styled.accordion .accordion .title, .treemenu .ui.styled.accordion .accordion .content {
       border-top: none;
       padding: .35em 0 .35em 1em;
       margin: 0;
       color: rgba(255, 255, 255, 0.8); }
-    .treemenu .ui.styled.accordion .accordion .content, .treemenu .ui.styled.accordion .content, .treemenu .ui.styled.accordion .accordion .accordion .content, .treemenu .ui.styled.accordion .accordion .content {
-      margin-left: 1.75rem;
-      padding: 0; }
-      .treemenu .ui.styled.accordion .accordion .content .subtitle, .treemenu .ui.styled.accordion .content .subtitle, .treemenu .ui.styled.accordion .accordion .accordion .content .subtitle, .treemenu .ui.styled.accordion .accordion .content .subtitle {
-        margin: 0 1.75rem 0 0;
-        padding: .35em 0;
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 0.9rem; }
-        .treemenu .ui.styled.accordion .accordion .content .subtitle.hide, .treemenu .ui.styled.accordion .content .subtitle.hide, .treemenu .ui.styled.accordion .accordion .accordion .content .subtitle.hide, .treemenu .ui.styled.accordion .accordion .content .subtitle.hide {
-          display: none; }
+    .treemenu .ui.styled.accordion .accordion .content .subtitle, .treemenu .ui.styled.accordion .content .subtitle, .treemenu .ui.styled.accordion .accordion .accordion .content .subtitle, .treemenu .ui.styled.accordion .accordion .content .subtitle {
+      margin: 0 1.75rem 0 0;
+      padding: .35em 0;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.9rem; }
+      .treemenu .ui.styled.accordion .accordion .content .subtitle.hide, .treemenu .ui.styled.accordion .content .subtitle.hide, .treemenu .ui.styled.accordion .accordion .accordion .content .subtitle.hide, .treemenu .ui.styled.accordion .accordion .content .subtitle.hide {
+        display: none; }
+
+.sidebar-help {
+  margin: 0.5em 0 0 0.35em !important;
+  color: rgba(255, 255, 255, 0.7) !important; }
 
 .ui.inverted.menu {
   background: #d62e47 !important; }
