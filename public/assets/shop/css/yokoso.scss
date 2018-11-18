@@ -534,6 +534,9 @@ a:hover {
     &.styled {
       &.accordion,
       &.accordion .accordion {
+        .content {
+          font-weight: 700 !important;
+        }
         background: inherit;
         box-shadow: none;
         padding: 0;

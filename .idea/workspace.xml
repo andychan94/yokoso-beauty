@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3145ed3-853d-4765-8476-5decf6f948e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,8 +143,8 @@
           <entry key="gitignore" value="20" />
           <entry key="js" value="205" />
           <entry key="php" value="3" />
-          <entry key="scss" value="695" />
-          <entry key="twig" value="1413" />
+          <entry key="scss" value="763" />
+          <entry key="twig" value="1441" />
           <entry key="yaml" value="5" />
           <entry key="yml" value="26" />
         </counts>
@@ -158,8 +155,8 @@
           <entry key="JavaScript" value="204" />
           <entry key="PHP" value="3" />
           <entry key="PLAIN_TEXT" value="36" />
-          <entry key="SCSS" value="695" />
-          <entry key="Twig" value="1413" />
+          <entry key="SCSS" value="763" />
+          <entry key="Twig" value="1441" />
           <entry key="YAML" value="31" />
         </counts>
       </usages-collector>
@@ -171,7 +168,7 @@
         <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="45" />
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -200,8 +197,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="561" column="16" selection-start-line="561" selection-start-column="16" selection-end-line="561" selection-end-column="16" />
+            <state relative-caret-position="176">
+              <caret line="537" column="38" selection-start-line="537" selection-start-column="38" selection-end-line="537" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -210,7 +207,7 @@
         <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -850,7 +847,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156804000" />
+    <option name="totallyTimeSpent" value="157119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="23" width="1264" height="770" extended-state="0" />
@@ -858,7 +855,7 @@
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.36252046" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.36252046" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49918166" weight="0.32890856" />
@@ -1202,21 +1199,21 @@
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="45" />
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="561" column="16" selection-start-line="561" selection-start-column="16" selection-end-line="561" selection-end-column="16" />
+        <state relative-caret-position="176">
+          <caret line="537" column="38" selection-start-line="537" selection-start-column="38" selection-end-line="537" selection-end-column="38" />
         </state>
       </provider>
     </entry>

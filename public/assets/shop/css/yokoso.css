@@ -367,6 +367,8 @@ a:hover {
     box-shadow: none;
     padding: 0;
     margin: 0; }
+    .treemenu .ui.styled.accordion .content, .treemenu .ui.styled.accordion .accordion .content {
+      font-weight: 700 !important; }
     .treemenu .ui.styled.accordion .accordion .title, .treemenu .ui.styled.accordion .title, .treemenu .ui.styled.accordion .content, .treemenu .ui.styled.accordion .accordion .accordion .title, .treemenu .ui.styled.accordion .accordion .title, .treemenu .ui.styled.accordion .accordion .content {
       border-top: none;
       padding: .35em 0 .35em 1em;
