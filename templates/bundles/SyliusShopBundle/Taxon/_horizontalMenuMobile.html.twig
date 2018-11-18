@@ -1,0 +1,35 @@
+{% macro item(taxon) %}
+    {% import _self as macros %}
+
+    {% if taxon.children|length > 0 %}
+        <div class="title">
+            <i class="dropdown icon"></i>
+            <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">
+                {{ taxon.name }}
+            </a>
+        </div>
+        <div class="content">
+            <div class="accordion">
+                {% for childTaxon in taxon.children %}
+                    {{ macros.item(childTaxon) }}
+                {% endfor %}
+            </div>
+        </div>
+    {% else %}
+        <div class="title">
+            <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">{{ taxon.name }}</a>
+        </div>
+    {% endif %}
+{% endmacro %}
+
+{% import _self as macros %}
+
+{% if taxons|length > 0 %}
+<div class="treemenu boxed">
+    <div class="ui fluid styled accordion">
+        {% for taxon in taxons %}
+            {{ macros.item(taxon) }}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

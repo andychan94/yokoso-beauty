@@ -30,76 +30,90 @@
     {{ sonata_block_render_event('sylius.shop.layout.head') }}
 </head>
 
-<body class="pushable">
-<div class="ui message yokoso-top-message">
-    <i class="close icon"></i>
-    <div class="header yokoso-top-message-text">
-        {{ 'yokoso.delivery_payment_msg_top'|trans }}
-    </div>
+<body>
+
+<div class="ui left sidebar inverted vertical menu" id="yokoso-main-sidebar">
+    {{ render(url('sylius_shop_partial_taxon_index_by_code', {'code': 'category', 'template': '@SyliusShop/Taxon/_horizontalMenuMobile.html.twig'})) }}
 </div>
-{{ sonata_block_render_event('sylius.shop.layout.before_body') }}
-<div id="yokoso-content">
-    {% block top %}
-        <form action="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': 'category'}) }}"
-              method="get">
-            <div id="menu" class="ui large inverted yokoso-red-bg menu">
-                {{ sonata_block_render_event('sylius.shop.layout.before_currency_switcher') }}
-                {{ render(controller('sylius.controller.shop.currency_switch:renderAction')) }}
-                {{ render(controller('sylius.controller.shop.locale_switch:renderAction')) }}
-                {#<a href="https://t.me/uzjapan" class="item" target="_blank">
-                    <i class="telegram icon ui circular yokoso-top-social"></i>
-                </a>#}
-                {{ sonata_block_render_event('sylius.shop.layout.before_security_widget') }}
 
-                {{ render(controller('sylius.controller.shop.security_widget:renderAction')) }}
+<div class="pusher" id="yokoso-main-pusher">
+    <div class="ui message yokoso-top-message">
+        <i class="close icon"></i>
+        <div class="header yokoso-top-message-text">
+            {{ 'yokoso.delivery_payment_msg_top'|trans }}
+        </div>
+    </div>
+    {{ sonata_block_render_event('sylius.shop.layout.before_body') }}
+    <div id="yokoso-content">
+        {% block top %}
+            <form action="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': 'category'}) }}"
+                  method="get">
+                <div id="menu" class="ui large inverted yokoso-red-bg menu">
+                    {{ sonata_block_render_event('sylius.shop.layout.before_currency_switcher') }}
+                    {{ render(controller('sylius.controller.shop.currency_switch:renderAction')) }}
+                    {{ render(controller('sylius.controller.shop.locale_switch:renderAction')) }}
+                    {#<a href="https://t.me/uzjapan" class="item" target="_blank">
+                        <i class="telegram icon ui circular yokoso-top-social"></i>
+                    </a>#}
+                    {{ sonata_block_render_event('sylius.shop.layout.before_security_widget') }}
 
-                {{ sonata_block_render_event('sylius.shop.layout.after_security_widget') }}
-            </div>
-        </form>
-    {% endblock %}
+                    {{ render(controller('sylius.controller.shop.security_widget:renderAction')) }}
 
-    <div class="ui container">
-        {% block header %}
-            <header>
-                {% include '@SyliusShop/_header.html.twig' %}
-
-                {{ sonata_block_render_event('sylius.shop.layout.after_header') }}
-
-
-                <div class="ui large stackable menu">
-                    <div class="ui dropdown item">
-                        <span class="text">{{ 'yokoso.all_inventory'|trans }}</span>
-                        <i class="dropdown icon"></i>
-                            {{ render(url('sylius_shop_partial_taxon_index_by_code', {'code': 'category', 'template': '@SyliusShop/Taxon/_horizontalMenu.html.twig'})) }}
-                    </div>
-                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'how-to-pay', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
-                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'shipment', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
-                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'on-sale', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
-                    {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'feedbacks', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
-
+                    {{ sonata_block_render_event('sylius.shop.layout.after_security_widget') }}
                 </div>
-            </header>
+            </form>
         {% endblock %}
 
-        {% include '@SyliusShop/_flashes.html.twig' %}
+        <div class="ui container">
+            {% block header %}
+                <header>
+                    {% include '@SyliusShop/_header.html.twig' %}
 
-        {{ sonata_block_render_event('sylius.shop.layout.before_content') }}
+                    {{ sonata_block_render_event('sylius.shop.layout.after_header') }}
 
-        {% block content %}
+                    <div class="ui large stackable menu" id="yokoso-nav">
+                        <div class="ui dropdown item mobile hidden">
+                            <span class="text">{{ 'yokoso.all_inventory'|trans }}</span>
+                            <i class="dropdown icon"></i>
+                            {{ render(url('sylius_shop_partial_taxon_index_by_code', {'code': 'category', 'template': '@SyliusShop/Taxon/_horizontalMenu.html.twig'})) }}
+                        </div>
+                        <div class="ui item mobile only" id="yokoso-main-sidebar-button">
+                            <i class="bars icon"></i>
+                            <span class="text">{{ 'yokoso.all_inventory'|trans }}</span>
+                        </div>
+                        {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'how-to-pay', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+                        {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'shipment', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+                        {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'on-sale', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+                        {{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'feedbacks', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+
+                        <div class="ui item" id="yokoso-main-sidebar-button">
+                            <span class="text">{{ 'yokoso.all_inventory'|trans }}</span>
+                            <i class="dropdown icon"></i>
+                        </div>
+                    </div>
+                </header>
+            {% endblock %}
+
+            {% include '@SyliusShop/_flashes.html.twig' %}
+
+            {{ sonata_block_render_event('sylius.shop.layout.before_content') }}
+
+            {% block content %}
+            {% endblock %}
+
+            {{ sonata_block_render_event('sylius.shop.layout.after_content') }}
+        </div>
+
+        {% block footer %}
+            {% include '@SyliusShop/_footer.html.twig' %}
         {% endblock %}
-
-        {{ sonata_block_render_event('sylius.shop.layout.after_content') }}
     </div>
-
-    {% block footer %}
-        {% include '@SyliusShop/_footer.html.twig' %}
-    {% endblock %}
+    <a href="https://t.me/diyorajapan" target="_blank" class="ui circular linkedin icon button yokoso-fixed-telegram"
+       data-tooltip="{{ 'yokoso.send_telegram_message'|trans }}" data-inverted data-position="top right">
+        <i class="telegram plane icon big"></i>
+    </a>
+    {{ render(url('sylius_shop_partial_cart_summary', {'template': '@SyliusShop/Cart/_floatingWidget.html.twig'})) }}
 </div>
-<a href="https://t.me/diyorajapan" target="_blank" class="ui circular linkedin icon button yokoso-fixed-telegram"
-   data-tooltip="{{ 'yokoso.send_telegram_message'|trans }}" data-inverted data-position="top right">
-    <i class="telegram plane icon big"></i>
-</a>
-{{ render(url('sylius_shop_partial_cart_summary', {'template': '@SyliusShop/Cart/_floatingWidget.html.twig'})) }}
 {% block javascripts %}
     {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'assets/shop/js/app.js'} %}
     {% include '@SyliusUi/_javascripts.html.twig' with {'path': 'assets/shop/js/yokoso.js'} %}

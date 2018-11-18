@@ -23,16 +23,21 @@
         var innerModal = "#yokoso-modal-"+$( this ).attr('id');
         $(innerModal).modal('show');
     });
-    $('.ui.sidebar').sidebar({
-        context: $('.bottom.segment')
-    })
-        .sidebar('attach events', '#haha');
 
     $('#yokoso-sidebar')
         .sidebar({
             context: $('#yokoso-bottom-segment')
         })
         .sidebar('attach events', '#yokoso-sidebar-button')
+    ;
+
+    $('#yokoso-main-sidebar')
+        .sidebar('attach events', '#yokoso-main-sidebar-button')
+        .sidebar('setting', {
+            dimPage          : true,
+            transition       : 'overlay',
+            mobileTransition : 'overlay'
+        })
     ;
 
     var mobileSearchEl = $("#mobile-name");
@@ -44,4 +49,17 @@
         mobileSearchEl.val($(this).val());
     });
 
+    $('.yokoso-popup-activator')
+        .popup({
+            hoverable  : true,
+            position   : 'right center',
+            delay: {
+                show: 300,
+                hide: 300
+            }
+        })
+    ;
+    $("#yokoso-main-sidebar .ui.accordion").accordion({
+        exclusive: false
+    });
 })(jQuery);

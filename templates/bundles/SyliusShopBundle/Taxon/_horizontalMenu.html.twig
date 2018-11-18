@@ -1,28 +1,55 @@
 {% macro item(taxon) %}
     {% import _self as macros %}
-
-    {% if taxon.children|length > 0 %}
-        <div class="ui pointing dropdown link item">
-            <span class="text"><a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}" tabindex="0">{{ taxon.name }}</a></span>
-            <i class="dropdown icon"></i>
-            <div class="menu">
+    <div class="item">
+        {% if taxon.children|length > 0 %}
+            <div>
+                <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">
+                    {{ taxon.name }}
+                </a>
+            </div>
+            <div class="list">
                 {% for childTaxon in taxon.children %}
                     {{ macros.item(childTaxon) }}
                 {% endfor %}
             </div>
-        </div>
-    {% else %}
-        <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}"
-           class="item">{{ taxon.name }}</a>
-    {% endif %}
+        {% else %}
+            <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">
+                {{ taxon.name }}
+            </a>
+        {% endif %}
+    </div>
 {% endmacro %}
-
 {% import _self as macros %}
-
 {% if taxons|length > 0 %}
     <div class="ui large stackable menu">
         {% for taxon in taxons %}
-            {{ macros.item(taxon) }}
+            {% if taxon.children|length > 0 %}
+                <div class="ui item yokoso-popup-activator">
+                    <span class="text">
+                        <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}"
+                           tabindex="0">
+                            {{ taxon.name }}
+                        </a>
+                    </span>
+                    <i class="dropdown icon"></i>
+                </div>
+                <div class="ui special popup">
+                    <div class="ui three column grid" style="min-width: 200px !important; max-width: 600px !important;">
+                        {% for childTaxon in taxon.children %}
+                        <div class="column">
+                            <div class="ui list">
+                            {{ macros.item(childTaxon) }}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% else %}
+                <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}"
+                   class="item">
+                    {{ taxon.name }}
+                </a>
+            {% endif %}
         {% endfor %}
     </div>
 {% endif %}
