@@ -21,7 +21,7 @@
 {% endmacro %}
 {% import _self as macros %}
 {% if taxons|length > 0 %}
-    <div class="ui large stackable menu">
+    <div class="ui large stackable menu inverted">
         {% for taxon in taxons %}
             {% if taxon.children|length > 0 %}
                 <div class="ui item yokoso-popup-activator">

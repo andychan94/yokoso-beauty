@@ -54,11 +54,11 @@ body.pushable #yokoso-content {
 
 .ui.menu .dropdown.item .menu {
   border: none !important; }
-  .ui.menu .dropdown.item .menu > .item:hover, .ui.menu .dropdown.item .menu .item.visible {
-    background: rgba(214, 46, 71, 0.8) !important;
-    color: rgba(255, 255, 255, 0.95) !important; }
-    .ui.menu .dropdown.item .menu > .item:hover > span > a, .ui.menu .dropdown.item .menu .item.visible > span > a {
-      color: rgba(255, 255, 255, 0.95) !important; }
+  .ui.menu .dropdown.item .menu > .item:hover, .ui.menu .dropdown.item .menu .item.visible, .ui.menu .dropdown.item .menu .item.visible i {
+    background: #fff !important;
+    color: #eb6887 !important; }
+    .ui.menu .dropdown.item .menu > .item:hover > span > a, .ui.menu .dropdown.item .menu .item.visible > span > a, .ui.menu .dropdown.item .menu .item.visible i > span > a {
+      color: #eb6887 !important; }
 
 .ui.small.image.yokoso-logo {
   width: 250px !important; }
@@ -75,7 +75,7 @@ body.pushable #yokoso-content {
   min-width: unset !important; }
 
 .ui.menu a.item:hover, .ui.menu .dropdown.item:hover {
-  background: rgba(214, 46, 71, 0.8) !important;
+  background: #eb6887 !important;
   color: rgba(255, 255, 255, 0.95) !important; }
 
 .ui.breadcrumb a {
@@ -262,10 +262,6 @@ a:hover {
 #menu .cart.popup {
   color: rgba(214, 46, 71, 0.8) !important; }
 
-:not(#menu) .ui.menu .dropdown.item:hover {
-  background: #eb6887 !important;
-  color: #fff; }
-
 .yokoso-sidebar-search {
   width: 80% !important; }
 
@@ -326,10 +322,16 @@ a:hover {
   left: auto;
   margin-left: 0; }
 
-.ui.menu .dropdown.item .menu > .item:hover {
+.ui.menu .ui.dropdown .menu > .item {
   color: #fff !important; }
-  .ui.menu .dropdown.item .menu > .item:hover > span a, .ui.menu .dropdown.item .menu > .item:hover > i {
+  .ui.menu .ui.dropdown .menu > .item a, .ui.menu .ui.dropdown .menu > .item i {
     color: #fff !important; }
+
+.ui.menu .dropdown.item .menu > .item:hover {
+  background-color: #fff !important;
+  color: #eb6887 !important; }
+  .ui.menu .dropdown.item .menu > .item:hover > span a, .ui.menu .dropdown.item .menu > .item:hover > i {
+    color: #eb6887 !important; }
 
 .ui.dropdown.item.active {
   background-color: #eb6887 !important;
@@ -341,7 +343,7 @@ a:hover {
 #yokoso-nav .list .item a {
   color: #000000 !important; }
   #yokoso-nav .list .item a:hover {
-    color: #D62E47 !important; }
+    color: #eb6887 !important; }
 #yokoso-nav .grid > .column > .list > .item > div > a {
   font-weight: bold; }
 #yokoso-nav .grid > .column > .list > .item > a {
@@ -386,7 +388,10 @@ a:hover {
   margin: 0.5em 0 0 0.35em !important;
   color: rgba(255, 255, 255, 0.7) !important; }
 
-.ui.inverted.menu {
+#yokoso-main-sidebar.ui.inverted.menu {
   background: #d62e47 !important; }
+
+#yokoso-nav .ui.inverted.menu {
+  background: #eb6887 !important; }
 
 /*# sourceMappingURL=yokoso.css.map */

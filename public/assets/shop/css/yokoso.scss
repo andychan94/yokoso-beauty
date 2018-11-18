@@ -81,11 +81,11 @@ body.pushable #yokoso-content {
 
 .ui.menu .dropdown.item .menu {
   border: none !important;
-  > .item:hover, .item.visible {
-    background: $red-rgba-hover !important;
-    color: rgba(255, 255, 255, .95) !important;
+  > .item:hover, .item.visible, .item.visible i {
+    background: #fff !important;
+    color: #eb6887 !important;
     > span > a {
-      color: rgba(255, 255, 255, .95) !important;
+      color: #eb6887 !important;
     }
   }
 }
@@ -114,7 +114,7 @@ body.pushable #yokoso-content {
 }
 
 .ui.menu a.item:hover, .ui.menu .dropdown.item:hover {
-  background: $red-rgba-hover !important;
+  background: #eb6887 !important;
   color: rgba(255, 255, 255, .95) !important;
 }
 
@@ -364,11 +364,6 @@ a:hover {
   color: rgba(214, 46, 71, 0.8) !important;
 }
 
-:not(#menu) .ui.menu .dropdown.item:hover {
-  background: $pink-rgb !important;
-  color: #fff;
-}
-
 .yokoso-sidebar-search {
   width: 80% !important;
 }
@@ -455,12 +450,19 @@ a:hover {
   left: auto;
   margin-left: 0;
 }
+.ui.menu .ui.dropdown .menu>.item {
 
-.ui.menu .dropdown.item .menu > .item:hover {
-  > span a, > i {
+  color: #fff !important;
+  a, i {
     color: #fff !important;
   }
-  color: #fff !important;
+}
+.ui.menu .dropdown.item .menu > .item:hover {
+  > span a, > i {
+    color: #eb6887 !important;
+  }
+  background-color: #fff !important;
+  color: #eb6887 !important;
 }
 
 .ui.dropdown.item.active {
@@ -481,7 +483,7 @@ a:hover {
     a {
       color: #000000 !important;
       &:hover {
-        color: $red-rgb !important;
+        color: #eb6887 !important;
       }
     }
   }
@@ -567,6 +569,10 @@ a:hover {
   color: rgba(255,255,255,0.7) !important;
 }
 
-.ui.inverted.menu {
+#yokoso-main-sidebar.ui.inverted.menu {
   background: $red-rgba !important;
+}
+
+#yokoso-nav .ui.inverted.menu {
+  background: #eb6887 !important;
 }
