@@ -573,6 +573,7 @@ a:hover {
   background: $red-rgba !important;
 }
 
-#yokoso-nav .ui.inverted.menu {
+#yokoso-nav > .dropdown > .ui.inverted.menu {
   background: #eb6887 !important;
+  opacity: 0.9 !important;
 }

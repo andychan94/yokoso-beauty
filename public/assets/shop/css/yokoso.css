@@ -391,7 +391,8 @@ a:hover {
 #yokoso-main-sidebar.ui.inverted.menu {
   background: #d62e47 !important; }
 
-#yokoso-nav .ui.inverted.menu {
-  background: #eb6887 !important; }
+#yokoso-nav > .dropdown > .ui.inverted.menu {
+  background: #eb6887 !important;
+  opacity: 0.9 !important; }
 
 /*# sourceMappingURL=yokoso.css.map */
