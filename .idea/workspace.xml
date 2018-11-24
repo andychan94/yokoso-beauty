@@ -120,7 +120,7 @@
           <entry key="php" value="4" />
           <entry key="scss" value="6" />
           <entry key="twig" value="54" />
-          <entry key="yaml" value="5" />
+          <entry key="yaml" value="6" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
@@ -131,7 +131,7 @@
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="6" />
           <entry key="Twig" value="54" />
-          <entry key="YAML" value="10" />
+          <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -140,7 +140,7 @@
           <entry key="gitignore" value="20" />
           <entry key="js" value="205" />
           <entry key="php" value="3" />
-          <entry key="scss" value="1113" />
+          <entry key="scss" value="1142" />
           <entry key="twig" value="1720" />
           <entry key="yaml" value="12" />
           <entry key="yml" value="33" />
@@ -152,7 +152,7 @@
           <entry key="JavaScript" value="204" />
           <entry key="PHP" value="3" />
           <entry key="PLAIN_TEXT" value="36" />
-          <entry key="SCSS" value="1113" />
+          <entry key="SCSS" value="1142" />
           <entry key="Twig" value="1720" />
           <entry key="YAML" value="45" />
         </counts>
@@ -183,11 +183,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="603" column="10" lean-forward="true" selection-start-line="603" selection-start-column="10" selection-end-line="603" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="467" column="57" selection-start-line="467" selection-start-column="57" selection-end-line="467" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/packages/_sylius.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -647,151 +656,13 @@
             <path>
               <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
               <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
               <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-              <item name="Product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Taxon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
-              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -860,12 +731,12 @@
       <workItem from="1541487047039" duration="60594000" />
       <workItem from="1542424795628" duration="58000" />
       <workItem from="1542424871813" duration="7331000" />
-      <workItem from="1542899897046" duration="6565000" />
+      <workItem from="1542899897046" duration="7093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165512000" />
+    <option name="totallyTimeSpent" value="166040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="130" width="1264" height="770" extended-state="0" />
@@ -1066,13 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/_sylius.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/shop/js/yokoso.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -1197,8 +1061,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="603" column="10" lean-forward="true" selection-start-line="603" selection-start-column="10" selection-end-line="603" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="467" column="57" selection-start-line="467" selection-start-column="57" selection-end-line="467" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/_sylius.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
         </state>
       </provider>
     </entry>

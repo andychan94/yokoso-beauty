@@ -59,3 +59,26 @@ liip_imagine:
     sylius_shop_product_large_thumbnail:
       filters:
         thumbnail: { size: [550, 550], mode: outbound }
+
+monolog:
+  handlers:
+    main:
+      type:         fingers_crossed
+      # 500 errors are logged at the critical level
+      action_level: critical
+      # to also log 400 level errors (but not 404's):
+      # action_level: error
+      # excluded_404s:
+      #     - ^/
+      handler:      deduplicated
+    deduplicated:
+      type:    deduplication
+      handler: swift
+    swift:
+      type:       swift_mailer
+      from_email: 'info@yokoso-beauty.com'
+      to_email:   'nrashidov@gmail.com'
+      subject:    'An Error Occurred! %%message%%'
+      level:      debug
+      formatter:  monolog.formatter.html
+      content_type: text/html
