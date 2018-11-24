@@ -49,13 +49,13 @@ liip_imagine:
     sylius_shop_product_original: ~
     sylius_shop_product_tiny_thumbnail:
       filters:
-        thumbnail: { size: [64, 64], mode: outbound }
+        thumbnail: { size: [64, 64], mode: inset }
     sylius_shop_product_small_thumbnail:
       filters:
-        thumbnail: { size: [112, 112], mode: outbound }
+        thumbnail: { size: [112, 112], mode: inset }
     sylius_shop_product_thumbnail:
       filters:
-        thumbnail: { size: [260, 260], mode: outbound }
+        thumbnail: { size: [260, 260], mode: inset }
     sylius_shop_product_large_thumbnail:
       filters:
-        thumbnail: { size: [550, 550], mode: outbound }
+        thumbnail: { size: [550, 550], mode: inset }

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3145ed3-853d-4765-8476-5decf6f948e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/_sylius.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/_sylius.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_box.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_box.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +126,7 @@
           <entry key="js" value="6" />
           <entry key="php" value="5" />
           <entry key="scss" value="6" />
-          <entry key="twig" value="55" />
+          <entry key="twig" value="56" />
           <entry key="yaml" value="8" />
           <entry key="yml" value="5" />
         </counts>
@@ -132,7 +137,7 @@
           <entry key="PHP" value="5" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SCSS" value="6" />
-          <entry key="Twig" value="55" />
+          <entry key="Twig" value="56" />
           <entry key="YAML" value="13" />
         </counts>
       </usages-collector>
@@ -142,9 +147,9 @@
           <entry key="gitignore" value="20" />
           <entry key="js" value="205" />
           <entry key="php" value="3" />
-          <entry key="scss" value="1142" />
-          <entry key="twig" value="1727" />
-          <entry key="yaml" value="139" />
+          <entry key="scss" value="1212" />
+          <entry key="twig" value="1783" />
+          <entry key="yaml" value="169" />
           <entry key="yml" value="33" />
         </counts>
       </usages-collector>
@@ -154,51 +159,23 @@
           <entry key="JavaScript" value="204" />
           <entry key="PHP" value="3" />
           <entry key="PLAIN_TEXT" value="36" />
-          <entry key="SCSS" value="1142" />
-          <entry key="Twig" value="1727" />
-          <entry key="YAML" value="172" />
+          <entry key="SCSS" value="1212" />
+          <entry key="Twig" value="1783" />
+          <entry key="YAML" value="202" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
-              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-              <folding>
-                <element signature="e#12#40#0#Twig" expanded="true" />
-                <element signature="e#1258#1328#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_footer.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="467" column="57" selection-start-line="467" selection-start-column="57" selection-end-line="467" selection-end-column="57" />
+            <state relative-caret-position="193">
+              <caret line="609" column="18" selection-start-line="609" selection-start-column="18" selection-end-line="609" selection-end-column="18" />
+              <folding>
+                <element signature="e#13274#15169#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,44 +183,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/packages/_sylius.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/packages/prod/monolog.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="388">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_box.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Configuration.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="308" column="120" lean-forward="true" selection-start-line="308" selection-start-column="120" selection-end-line="308" selection-end-column="120" />
+            <state relative-caret-position="330">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="44" />
+              <folding>
+                <element signature="e#11#51#0#Twig" expanded="true" />
+                <element signature="e#1244#1296#0#Twig" expanded="true" />
+                <element signature="e#1752#1792#0#Twig" expanded="true" />
+                <element signature="e#2280#2325#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -322,7 +278,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/login.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Login/_register.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusWishlistPlugin/wishlist.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_header.html.twig" />
@@ -369,10 +324,11 @@
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig" />
-        <option value="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_footer.html.twig" />
-        <option value="$PROJECT_DIR$/config/packages/_sylius.yaml" />
         <option value="$PROJECT_DIR$/config/packages/prod/monolog.yaml" />
+        <option value="$PROJECT_DIR$/config/packages/_sylius.yaml" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_box.html.twig" />
+        <option value="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" />
       </list>
     </option>
   </component>
@@ -742,6 +698,14 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="bundles" type="462c0819:PsiDirectoryNode" />
               <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Taxon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -811,12 +775,12 @@
       <workItem from="1541487047039" duration="60594000" />
       <workItem from="1542424795628" duration="58000" />
       <workItem from="1542424871813" duration="7331000" />
-      <workItem from="1542899897046" duration="8997000" />
+      <workItem from="1542899897046" duration="11353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167944000" />
+    <option name="totallyTimeSpent" value="170300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="130" width="1264" height="770" extended-state="0" />
@@ -856,9 +820,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/assets/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/images/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1092,28 +1053,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-            <element signature="e#1258#1328#0#Twig" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
+    <entry file="file://$PROJECT_DIR$/config/packages/prod/monolog.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="467" column="57" selection-start-line="467" selection-start-column="57" selection-end-line="467" selection-end-column="57" />
+        <state relative-caret-position="300">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Configuration.php">
+    <entry file="file://$PROJECT_DIR$/config/packages/_sylius.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="308" column="120" lean-forward="true" selection-start-line="308" selection-start-column="120" selection-end-line="308" selection-end-column="120" />
+        <state relative-caret-position="388">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1131,31 +1095,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="209">
+          <caret line="308" column="120" lean-forward="true" selection-start-line="308" selection-start-column="120" selection-end-line="308" selection-end-column="120" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_footer.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="807">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+            <element signature="e#1258#1328#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/_sylius.yaml">
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_box.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="330">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="e#11#51#0#Twig" expanded="true" />
+            <element signature="e#1244#1296#0#Twig" expanded="true" />
+            <element signature="e#1752#1792#0#Twig" expanded="true" />
+            <element signature="e#2280#2325#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/prod/monolog.yaml">
+    <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="193">
+          <caret line="609" column="18" selection-start-line="609" selection-start-column="18" selection-end-line="609" selection-end-column="18" />
+          <folding>
+            <element signature="e#13274#15169#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
