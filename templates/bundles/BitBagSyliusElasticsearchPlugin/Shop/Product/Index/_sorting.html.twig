@@ -3,6 +3,7 @@
 {% set queryParameters = app.request.query.all|unset_elements(['order_by', 'sort', 'page']) %}
 
 <div class="ui simple dropdown item">
+    <i class="sort alphabet down icon"></i>
     {{ 'bitbag_sylius_elasticsearch_plugin.ui.sort'|trans }}
     <i class="dropdown icon"></i>
     <div class="menu">

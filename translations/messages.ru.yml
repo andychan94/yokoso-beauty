@@ -124,6 +124,6 @@ bitbag_sylius_elasticsearch_plugin:
     bestsellers: Самые популярные
     newest: Новые
     oldest: Старые
-    most_expensive: Самые дорогие
-    cheapest: Самые дешевые
+    most_expensive: Цена по убыванию
+    cheapest: Цена по возрастанию
     per_page: Показать

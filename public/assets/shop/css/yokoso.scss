@@ -313,6 +313,7 @@ a:hover {
     .item {
       color: $red-rgba-hover !important;
       &:hover {
+        background-color: $red-rgb !important;
         color: #fff !important;
       }
     }
@@ -450,14 +451,13 @@ a:hover {
   left: auto;
   margin-left: 0;
 }
-.ui.menu .ui.dropdown .menu>.item {
-
+#yokoso-nav.ui.menu .ui.dropdown .menu>.item {
   color: #fff !important;
   a, i {
     color: #fff !important;
   }
 }
-.ui.menu .dropdown.item .menu > .item:hover {
+#yokoso-nav.ui.menu .dropdown.item .menu > .item:hover {
   > span a, > i {
     color: #eb6887 !important;
   }
@@ -465,7 +465,7 @@ a:hover {
   color: #eb6887 !important;
 }
 
-.ui.dropdown.item.active {
+#yokoso-nav.ui.dropdown.item.active {
   background-color: #eb6887 !important;
   color: #fff !important;
 }

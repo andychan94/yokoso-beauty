@@ -43,3 +43,19 @@ sylius_mailer:
   sender:
     name: Yokoso Beauty
     address: info@yokoso-beauty.com
+
+liip_imagine:
+  filter_sets:
+    sylius_shop_product_original: ~
+    sylius_shop_product_tiny_thumbnail:
+      filters:
+        thumbnail: { size: [64, 64], mode: outbound }
+    sylius_shop_product_small_thumbnail:
+      filters:
+        thumbnail: { size: [112, 112], mode: outbound }
+    sylius_shop_product_thumbnail:
+      filters:
+        thumbnail: { size: [260, 260], mode: outbound }
+    sylius_shop_product_large_thumbnail:
+      filters:
+        thumbnail: { size: [550, 550], mode: outbound }

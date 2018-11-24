@@ -222,6 +222,7 @@ a:hover {
 #menu .dropdown .item {
   color: rgba(214, 46, 71, 0.8) !important; }
   #menu .dropdown .item:hover {
+    background-color: #D62E47 !important;
     color: #fff !important; }
 
 .yokoso-top-cart-content .item {
@@ -322,18 +323,18 @@ a:hover {
   left: auto;
   margin-left: 0; }
 
-.ui.menu .ui.dropdown .menu > .item {
+#yokoso-nav.ui.menu .ui.dropdown .menu > .item {
   color: #fff !important; }
-  .ui.menu .ui.dropdown .menu > .item a, .ui.menu .ui.dropdown .menu > .item i {
+  #yokoso-nav.ui.menu .ui.dropdown .menu > .item a, #yokoso-nav.ui.menu .ui.dropdown .menu > .item i {
     color: #fff !important; }
 
-.ui.menu .dropdown.item .menu > .item:hover {
+#yokoso-nav.ui.menu .dropdown.item .menu > .item:hover {
   background-color: #fff !important;
   color: #eb6887 !important; }
-  .ui.menu .dropdown.item .menu > .item:hover > span a, .ui.menu .dropdown.item .menu > .item:hover > i {
+  #yokoso-nav.ui.menu .dropdown.item .menu > .item:hover > span a, #yokoso-nav.ui.menu .dropdown.item .menu > .item:hover > i {
     color: #eb6887 !important; }
 
-.ui.dropdown.item.active {
+#yokoso-nav.ui.dropdown.item.active {
   background-color: #eb6887 !important;
   color: #fff !important; }
 
