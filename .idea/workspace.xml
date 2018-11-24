@@ -140,7 +140,7 @@
           <entry key="gitignore" value="20" />
           <entry key="js" value="205" />
           <entry key="php" value="3" />
-          <entry key="scss" value="1036" />
+          <entry key="scss" value="1094" />
           <entry key="twig" value="1720" />
           <entry key="yaml" value="12" />
           <entry key="yml" value="33" />
@@ -152,7 +152,7 @@
           <entry key="JavaScript" value="204" />
           <entry key="PHP" value="3" />
           <entry key="PLAIN_TEXT" value="36" />
-          <entry key="SCSS" value="1036" />
+          <entry key="SCSS" value="1094" />
           <entry key="Twig" value="1720" />
           <entry key="YAML" value="45" />
         </counts>
@@ -186,8 +186,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="468" column="25" lean-forward="true" selection-start-line="468" selection-start-column="25" selection-end-line="468" selection-end-column="25" />
+            <state relative-caret-position="443">
+              <caret line="475" column="5" selection-start-line="475" selection-start-column="5" selection-end-line="475" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -204,7 +204,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>padding</find>
       <find>.cart</find>
       <find>hidden</find>
       <find>product-p</find>
@@ -234,6 +233,7 @@
       <find>active</find>
       <find>$red-rgba-hover</find>
       <find>for</find>
+      <find>popup</find>
     </findStrings>
     <replaceStrings>
       <replace>public_html</replace>
@@ -314,9 +314,9 @@
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_main.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig" />
-        <option value="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_footer.html.twig" />
+        <option value="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" />
       </list>
     </option>
   </component>
@@ -860,12 +860,12 @@
       <workItem from="1541487047039" duration="60594000" />
       <workItem from="1542424795628" duration="58000" />
       <workItem from="1542424871813" duration="7331000" />
-      <workItem from="1542899897046" duration="5954000" />
+      <workItem from="1542899897046" duration="6223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164901000" />
+    <option name="totallyTimeSpent" value="165170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="130" width="1264" height="770" extended-state="0" />
@@ -1197,8 +1197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="468" column="25" lean-forward="true" selection-start-line="468" selection-start-column="25" selection-end-line="468" selection-end-column="25" />
+        <state relative-caret-position="443">
+          <caret line="475" column="5" selection-start-line="475" selection-start-column="5" selection-end-line="475" selection-end-column="5" />
         </state>
       </provider>
     </entry>
