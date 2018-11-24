@@ -413,4 +413,7 @@ a:hover {
   background: #eb6887 !important;
   opacity: 0.9 !important; }
 
+#yokoso-nav .yokoso-popup-activator.visible, #yokoso-nav .yokoso-popup-activator.visible a {
+  color: #eb6887 !important; }
+
 /*# sourceMappingURL=yokoso.css.map */
