@@ -470,6 +470,9 @@ a:hover {
   a, i {
     color: #fff !important;
   }
+  .yokoso-popup-activator.visible {
+    color: #fff !important;
+  }
 }
 #yokoso-nav.ui.menu .dropdown.item .menu > .item:hover {
   > span a, > i {
