@@ -6,5 +6,10 @@ monolog:
             handler: nested
         nested:
             type: stream
-            path: "%kernel.logs_dir%/%kernel.environment%.log"
+            path: '%kernel.logs_dir%/%kernel.environment%.log'
             level: debug
+        console:
+            type: console
+            process_psr_3_messages: false
+            from_email: 'error@yokoso-beauty.com'
+            to_email:   'nrashidov@gmail.com'
