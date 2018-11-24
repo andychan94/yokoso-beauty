@@ -49,6 +49,20 @@ body.pushable {
 body.pushable #yokoso-content {
   background: linear-gradient(180deg, #eb6887 0px, #eb6887 260px, #fff 200px) !important; }
 
+.no-v-padding {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+.no-h-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.top-small-margin {
+  margin-top: 1em !important; }
+
+.bottom-small-margin {
+  margin-bottom: 1em !important; }
+
 .yokoso-red-bg {
   background: #d62e47 !important; }
 

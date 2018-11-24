@@ -6,10 +6,21 @@
 {% import '@SyliusUi/Macro/pagination.html.twig' as pagination %}
 
 {% block content %}
-    <h1 class="ui monster section dividing header">
+    <h1 class="ui monster section header">
         {{ taxon.name }}
-        <div class="sub header">{{ taxon.description }}</div>
     </h1>
+    {% if taxon.children | length > 0 %}
+        <div class="ui grid container bottom-small-margin">
+            {% for childTaxon in taxon.children %}
+                <div class="four wide widescreen four wide computer five wide tablet eight wide mobile column no-v-padding">
+                    <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}"
+                       tabindex="0">
+                        {{ childTaxon.name }}
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
     {{ form_start(form, {'method': 'GET', 'attr': {'class': 'ui loadable form'}}) }}
     <div class="ui stackable grid">
         {#<div class="four wide column">
@@ -22,21 +33,21 @@
         </div>#}
 
         <div class="sixteen wide column">
-
             {% if products|length > 0 %}
             <div class="ui top attached menu">
                 <a class="item ui red yokoso-filter-button button" id="yokoso-sidebar-button">
                     <i class="cog icon"></i> {{ 'yokoso.filter'|trans }}
                 </a>
-                    {% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_sorting.html.twig' %}
+                {% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_sorting.html.twig' %}
                 {#{% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_pagination.html.twig' %}#}
-                    <div class="ui simple action input yokoso-perpage-search">
-                        <input type="text" id="other-name" name="name" placeholder="{{ 'yokoso.search_in'|trans }}{{ taxon.name }}">
+                <div class="ui simple action input yokoso-perpage-search">
+                    <input type="text" id="other-name" name="name"
+                           placeholder="{{ 'yokoso.search_in'|trans }}{{ taxon.name }}">
 
-                        <button type="submit" class="ui primary icon button">
-                            <i class="search icon"></i>
-                        </button>
-                    </div>
+                    <button type="submit" class="ui primary icon button">
+                        <i class="search icon"></i>
+                    </button>
+                </div>
             </div>
             <div class="ui bottom attached segment pushable" id="yokoso-bottom-segment">
                 <div class="ui left inline vertical sidebar menu" id="yokoso-sidebar">
