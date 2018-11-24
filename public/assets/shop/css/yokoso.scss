@@ -465,7 +465,7 @@ a:hover {
   left: auto;
   margin-left: 0;
 }
-#yokoso-nav.ui.menu .ui.dropdown .menu>.item {
+#yokoso-nav.ui.menu .ui.dropdown .menu>.item:not(.visible) {
   color: #fff !important;
   a, i {
     color: #fff !important;
@@ -599,10 +599,8 @@ a:hover {
   opacity: 0.9 !important;
 }
 
-#yokoso-nav {
-  .yokoso-popup-activator.visible {
-    &, & a {
+#yokoso-nav .item.yokoso-popup-activator.visible {
+    & a, & i {
       color: #eb6887 !important;
     }
-  }
 }

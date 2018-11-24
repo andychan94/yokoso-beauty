@@ -337,9 +337,9 @@ a:hover {
   left: auto;
   margin-left: 0; }
 
-#yokoso-nav.ui.menu .ui.dropdown .menu > .item {
+#yokoso-nav.ui.menu .ui.dropdown .menu > .item:not(.visible) {
   color: #fff !important; }
-  #yokoso-nav.ui.menu .ui.dropdown .menu > .item a, #yokoso-nav.ui.menu .ui.dropdown .menu > .item i {
+  #yokoso-nav.ui.menu .ui.dropdown .menu > .item:not(.visible) a, #yokoso-nav.ui.menu .ui.dropdown .menu > .item:not(.visible) i {
     color: #fff !important; }
 
 #yokoso-nav .yokoso-popup-activator.visible, #yokoso-nav .yokoso-popup-activator.visible a {
@@ -413,7 +413,7 @@ a:hover {
   background: #eb6887 !important;
   opacity: 0.9 !important; }
 
-#yokoso-nav .yokoso-popup-activator.visible, #yokoso-nav .yokoso-popup-activator.visible a {
+#yokoso-nav .item.yokoso-popup-activator.visible a, #yokoso-nav .item.yokoso-popup-activator.visible i {
   color: #eb6887 !important; }
 
 /*# sourceMappingURL=yokoso.css.map */
