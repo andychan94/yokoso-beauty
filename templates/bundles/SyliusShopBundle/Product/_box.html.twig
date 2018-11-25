@@ -16,12 +16,12 @@
         {% include '@SyliusShop/Product/_mainImage.html.twig' with {'product': product} %}
     </a>
     <div class="content yokoso-ellipsis">
-        <a href="{{ path('sylius_shop_product_show', {'slug': product.slug, '_locale': product.translation.locale}) }}"
-           class="header sylius-product-name">{{ product.name }}</a>
-        {% if not product.variants.empty() %}
-            <div class="sylius-product-price">{{ money.calculatePrice(product|sylius_resolve_variant) }}</div>
-        {% endif %}
-        {{ product.shortDescription }}
+            <a href="{{ path('sylius_shop_product_show', {'slug': product.slug, '_locale': product.translation.locale}) }}"
+               class="header sylius-product-name">{{ product.name }}</a>
+            {% if not product.variants.empty() %}
+                <div class="sylius-product-price">{{ money.calculatePrice(product|sylius_resolve_variant) }}</div>
+            {% endif %}
+            {{ product.shortDescription }}
     </div>
     <div class="ui two bottom attached buttons">
         <div class="ui basic red yokoso-like button">{% include '@BitBagSyliusWishlistPlugin/_addToWishlist.html.twig' %}</div>
