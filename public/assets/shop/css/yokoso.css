@@ -417,13 +417,26 @@ a:hover {
   color: #eb6887 !important; }
 
 .yokoso-ellipsis {
+  position: relative !important;
   overflow: hidden;
   height: 160px;
   text-align: left !important; }
+  .yokoso-ellipsis:before {
+    content: '';
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 130px, white 150px); }
   .yokoso-ellipsis .sylius-product-price {
     margin: 1em 0;
     color: #B12704 !important;
     font-weight: 700 !important;
     font-size: 1.28571429em !important; }
+
+.ui.raised.link.card.centered .ui.attached.buttons {
+  z-index: 999; }
 
 /*# sourceMappingURL=yokoso.css.map */

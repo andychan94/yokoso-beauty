@@ -1,23 +1,17 @@
 monolog:
   handlers:
     main:
-      type: fingers_crossed
-      action_level: error
-      handler: nested
-    nested:
-      type: stream
-      path: '%kernel.logs_dir%/%kernel.environment%.log'
-      level: debug
+      type:         fingers_crossed
+      action_level: critical
+      handler:      deduplicated
+    deduplicated:
+      type:    deduplication
       handler: swift
-    console:
-      type: console
-      process_psr_3_messages: false
     swift:
       type:       swift_mailer
       from_email: 'info@yokoso-beauty.com'
       to_email:   'nrashidov@gmail.com'
       subject:    'An Error Occurred! %%message%%'
-      level:      error
+      level:      debug
       formatter:  monolog.formatter.html
       content_type: text/html
-
