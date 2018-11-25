@@ -280,13 +280,6 @@ a:hover {
 .yokoso-sidebar-search {
   width: 80% !important; }
 
-/* Mobile */
-@media only screen and (max-width: 767px) {
-  #yokoso-sidebar .yokoso-perpage-search {
-    display: inherit !important; }
-
-  .top.menu .yokoso-perpage-search {
-    display: none !important; } }
 /* Rest */
 @media only screen and (min-width: 768px) {
   #yokoso-sidebar .yokoso-perpage-search {
@@ -438,5 +431,15 @@ a:hover {
 
 .ui.raised.link.card.centered .ui.attached.buttons {
   z-index: 999; }
+
+.yokoso-prod-search {
+  display: inline-flex; }
+  .yokoso-prod-search .field {
+    margin: 0 !important; }
+    .yokoso-prod-search .field input[type="text"] {
+      -webkit-border-radius: 0 !important;
+      -moz-border-radius: 0 !important;
+      border-radius: 0 !important;
+      line-height: 1.4em !important; }
 
 /*# sourceMappingURL=yokoso.css.map */

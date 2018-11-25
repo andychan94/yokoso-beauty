@@ -1,26 +1,25 @@
 {% import '@SyliusUi/Macro/messages.html.twig' as messages %}
 {% import '@SyliusUi/Macro/pagination.html.twig' as pagination %}
-
-{{ sonata_block_render_event('sylius.shop.product.index.before_search', {'products': resources.data}) }}
-
-{% include '@SyliusShop/Product/Index/_search.html.twig' %}
-
-{{ sonata_block_render_event('sylius.shop.product.index.after_search', {'products': resources.data}) }}
-
-{% include '@SyliusShop/Product/Index/_pagination.html.twig' %}
-{% include '@SyliusShop/Product/Index/_sorting.html.twig' %}
-
-<div class="ui clearing hidden divider"></div>
+<div class="ui top attached menu">
+    {% include '@SyliusShop/Product/Index/_sorting.html.twig' %}
+    {#{% include '@BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_pagination.html.twig' %}#}
+    {% include '@SyliusShop/Product/Index/_search.html.twig' %}
+</div>
 
 {{ sonata_block_render_event('sylius.shop.product.index.before_list', {'products': resources.data}) }}
 
 {% if resources.data|length > 0 %}
-    <div class="ui cards centered" id="products">
-        {% for product in resources.data %}
-            {% include '@SyliusShop/Product/_box.html.twig' %}
-        {% endfor %}
+    <div class="ui bottom attached segment">
+        <div class="pusher">
+            <div class="ui basic segment">
+                <div class="ui centered grid" id="elastic-products">
+                    {% for product in resources.data %}
+                        {% include '@SyliusShop/Product/_box.html.twig' %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="ui hidden divider"></div>
 
     {{ sonata_block_render_event('sylius.shop.product.index.before_pagination', {'products': resources.data}) }}
 

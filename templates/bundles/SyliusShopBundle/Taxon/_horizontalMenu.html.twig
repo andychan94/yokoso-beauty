@@ -3,7 +3,7 @@
     <div class="item">
         {% if taxon.children|length > 0 %}
             <div>
-                <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">
+                <a href="{{ path('sylius_shop_product_index', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">
                     {{ taxon.name }}
                 </a>
             </div>
@@ -13,7 +13,7 @@
                 {% endfor %}
             </div>
         {% else %}
-            <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">
+            <a href="{{ path('sylius_shop_product_index', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}">
                 {{ taxon.name }}
             </a>
         {% endif %}
@@ -26,7 +26,7 @@
             {% if taxon.children|length > 0 %}
                 <div class="ui item yokoso-popup-activator">
                     <span class="text">
-                        <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}"
+                        <a href="{{ path('sylius_shop_product_index', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}"
                            tabindex="0">
                             {{ taxon.name }}
                         </a>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             {% else %}
-                <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}"
+                <a href="{{ path('sylius_shop_product_index', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}"
                    class="item">
                     {{ taxon.name }}
                 </a>

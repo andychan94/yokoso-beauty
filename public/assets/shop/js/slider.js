@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $("#products").owlCarousel({
+    $("#yokoso-new-products").owlCarousel({
         autoplay: false,
         navigation : true,
         loop:true,
@@ -24,9 +24,6 @@ $(document).ready(function() {
                 nav:true,
             }
         }
-
-
-
     });
 
     $("#yokoso-banners").owlCarousel({
@@ -53,7 +50,5 @@ $(document).ready(function() {
                 items:1,
             }
         }
-
     });
-
 });

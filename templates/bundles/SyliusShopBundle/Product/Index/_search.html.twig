@@ -1,26 +1,8 @@
-<div class="ui segment">
-    <form method="get" action="{{ path('sylius_shop_product_index', {'slug': app.request.attributes.get('slug')}) }}" class="ui loadable form">
-        <div class="ui grid">
-            <div class="ten wide column">
-                {% for filter in products.definition.enabledFilters %}
-                    {{ sylius_grid_render_filter(products, filter) }}
-                {% endfor %}
-            </div>
-            <div class="column">
-                <button type="submit" class="ui animated yokoso button" tabindex="0">
-                    <span class="visible content">{{ 'sylius.ui.search'|trans }}</span>
-                    <span class="hidden content">
-                        <i class="search icon"></i>
-                    </span>
-                </button>
-                {#<div class="ui buttons">#}
-                    {#<button type="submit" class="ui primary icon labeled button"><i class="search icon"></i> {{ 'sylius.ui.search'|trans }}</button>#}
-                {#</div>#}
-                {#<div class="ui icon input">#}
-                    {#<input type="text" placeholder="Search...">#}
-                    {#<i class="inverted circular search link icon"></i>#}
-                {#</div>#}
-            </div>
-        </div>
+<div class="ui simple action input yokoso-perpage-search">
+    <form method="get" class="ui loadable form yokoso-prod-search">
+        <input type="text" id="criteria_search_value" name="criteria[search][value]">
+        <button type="submit" class="ui primary icon button">
+            <i class="search icon"></i>
+        </button>
     </form>
 </div>

@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d3145ed3-853d-4765-8476-5decf6f948e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/shop/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/shop/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_main.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_main.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_search.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_search.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_horizontalList.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_horizontalList.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,21 +127,21 @@
         <counts>
           <entry key="env" value="2" />
           <entry key="gitignore" value="2" />
-          <entry key="js" value="6" />
-          <entry key="php" value="6" />
-          <entry key="scss" value="7" />
-          <entry key="twig" value="58" />
+          <entry key="js" value="8" />
+          <entry key="php" value="8" />
+          <entry key="scss" value="8" />
+          <entry key="twig" value="90" />
           <entry key="yaml" value="10" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="6" />
-          <entry key="PHP" value="6" />
+          <entry key="JavaScript" value="8" />
+          <entry key="PHP" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="SCSS" value="7" />
-          <entry key="Twig" value="58" />
+          <entry key="SCSS" value="8" />
+          <entry key="Twig" value="90" />
           <entry key="YAML" value="17" />
         </counts>
       </usages-collector>
@@ -144,10 +149,10 @@
         <counts>
           <entry key="env" value="16" />
           <entry key="gitignore" value="20" />
-          <entry key="js" value="205" />
+          <entry key="js" value="218" />
           <entry key="php" value="3" />
-          <entry key="scss" value="1416" />
-          <entry key="twig" value="1823" />
+          <entry key="scss" value="1506" />
+          <entry key="twig" value="2007" />
           <entry key="yaml" value="233" />
           <entry key="yml" value="33" />
         </counts>
@@ -155,18 +160,54 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="JavaScript" value="204" />
+          <entry key="JavaScript" value="217" />
           <entry key="PHP" value="3" />
           <entry key="PLAIN_TEXT" value="36" />
-          <entry key="SCSS" value="1416" />
-          <entry key="Twig" value="1823" />
+          <entry key="SCSS" value="1506" />
+          <entry key="Twig" value="2007" />
           <entry key="YAML" value="266" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_main.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding>
+                <element signature="e#11#45#0#Twig" expanded="true" />
+                <element signature="e#302#346#0#Twig" expanded="true" />
+                <element signature="e#374#417#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#78#121#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_search.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,9 +219,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>php</find>
-      <find>example.com</find>
-      <find>mail</find>
       <find>breadc</find>
       <find>fixed</find>
       <find>sylius-cart-button</find>
@@ -208,6 +246,9 @@
       <find>box</find>
       <find>product_pr</find>
       <find>sylius-product-price</find>
+      <find>criteria_sear</find>
+      <find>criteria</find>
+      <find>search</find>
     </findStrings>
     <replaceStrings>
       <replace>public_html</replace>
@@ -224,7 +265,6 @@
       <dir>$PROJECT_DIR$/templates/bundles/SyliusShopBundle</dir>
       <dir>$PROJECT_DIR$/vendor/sylius/sylius</dir>
       <dir>$PROJECT_DIR$/public</dir>
-      <dir>$PROJECT_DIR$/vendor</dir>
       <dir>$PROJECT_DIR$/config</dir>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/vendor/bitbag/cms-plugin/src</dir>
@@ -232,6 +272,7 @@
       <dir>$PROJECT_DIR$/templates/bundles/SyliusAdminBundle</dir>
       <dir>$PROJECT_DIR$/public/bundles</dir>
       <dir>$PROJECT_DIR$/templates</dir>
+      <dir>$PROJECT_DIR$/vendor</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -240,10 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Login/_register.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusWishlistPlugin/wishlist.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_header.html.twig" />
-        <option value="$PROJECT_DIR$/public/assets/shop/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Media/Show/image.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_gallery.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Block/show.html.twig" />
@@ -258,14 +295,12 @@
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_newProducts.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Show/_associations.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Homepage/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_horizontalList.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_newProducts.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Cart/_floatingWidget.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/ProductReview/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" />
-        <option value="$PROJECT_DIR$/public/assets/shop/js/slider.js" />
         <option value="$PROJECT_DIR$/public/assets/shop/js/.gitignore" />
         <option value="$PROJECT_DIR$/public/assets/shop/css/.gitignore" />
         <option value="$PROJECT_DIR$/public/assets/images/.gitignore" />
@@ -280,17 +315,23 @@
         <option value="$PROJECT_DIR$/public/assets/shop/js/yokoso.js" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" />
         <option value="$PROJECT_DIR$/translations/messages.ru.yml" />
-        <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_sorting.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_search.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_main.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_footer.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/_sylius.yaml" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_box.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/prod/monolog.yaml" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_horizontalList.html.twig" />
+        <option value="$PROJECT_DIR$/public/assets/shop/js/slider.js" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_verticalMenu.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/index.html.twig" />
         <option value="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" />
+        <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_sorting.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_sorting.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_header.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_main.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_search.html.twig" />
       </list>
     </option>
   </component>
@@ -566,6 +607,9 @@
         <expanded-state>
           <State />
           <State>
+            <id>AssetSymfony</id>
+          </State>
+          <State>
             <id>Code style issuesJavaScript</id>
           </State>
           <State>
@@ -573,6 +617,9 @@
           </State>
           <State>
             <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>FormSymfony</id>
           </State>
           <State>
             <id>GeneralCoffeeScript</id>
@@ -596,9 +643,35 @@
             <id>Potentially confusing code constructsJavaScript</id>
           </State>
           <State>
+            <id>RouteSymfony</id>
+          </State>
+          <State>
+            <id>ServiceSymfony</id>
+          </State>
+          <State>
+            <id>Symfony</id>
+          </State>
+          <State>
+            <id>TemplateSymfony</id>
+          </State>
+          <State>
+            <id>TranslationSymfony</id>
+          </State>
+          <State>
+            <id>TwigSymfony</id>
+          </State>
+          <State>
             <id>UndefinedPHP</id>
           </State>
+          <State>
+            <id>YamlSymfony</id>
+          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -645,6 +718,40 @@
               <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Shop" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="BitBagSyliusElasticsearchPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Shop" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
               <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -653,7 +760,7 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="bundles" type="462c0819:PsiDirectoryNode" />
               <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="Homepage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
@@ -661,7 +768,159 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="bundles" type="462c0819:PsiDirectoryNode" />
               <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Taxon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="GridBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sylius" type="462c0819:PsiDirectoryNode" />
+              <item name="Bundle" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Taxon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -670,7 +929,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="orderfixture&#9;FILE&#9;file:///Users/nod/projects/yokoso-japan/vendor/sylius/sylius/src/Sylius/Bundle/CoreBundle/Fixture/OrderFixture.php&#10;orderfixture.php&#9;FILE&#9;file:///Users/nod/projects/yokoso-japan/vendor/composer/e60fdded/Sylius-Sylius-f98194c/src/Sylius/Bundle/CoreBundle/Fixture/OrderFixture.php&#10;symfony/component/form/view&#9;null&#9;null&#10;Customer.php&#9;FILE&#9;file:///Users/nod/projects/yokoso-japan/vendor/sylius/sylius/src/Sylius/Component/Core/Model/Customer.php" />
+    <property name="SearchEverywhereHistoryKey" value="yokos&#9;FILE&#9;file:///Users/nodir/pers/yokoso-beauty/public/assets/shop/css/yokoso.scss&#10;orderfixture&#9;FILE&#9;file:///Users/nod/projects/yokoso-japan/vendor/sylius/sylius/src/Sylius/Bundle/CoreBundle/Fixture/OrderFixture.php&#10;orderfixture.php&#9;FILE&#9;file:///Users/nod/projects/yokoso-japan/vendor/composer/e60fdded/Sylius-Sylius-f98194c/src/Sylius/Bundle/CoreBundle/Fixture/OrderFixture.php&#10;symfony/component/form/view&#9;null&#9;null&#10;Customer.php&#9;FILE&#9;file:///Users/nod/projects/yokoso-japan/vendor/sylius/sylius/src/Sylius/Component/Core/Model/Customer.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -683,22 +942,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Twig" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index" />
+      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon" />
+      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product" />
+      <recent name="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin" />
+      <recent name="$PROJECT_DIR$/public/assets/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Media" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/config/packages/grids/shop" />
       <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Common/Form" />
       <recent name="$PROJECT_DIR$/templates/bundles/SyliusAdminBundle/Security" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon" />
-      <recent name="$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin" />
-      <recent name="$PROJECT_DIR$/public/assets/images" />
-      <recent name="$PROJECT_DIR$/public/assets/shop/js" />
-      <recent name="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/ProductReview" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -730,12 +989,12 @@
       <workItem from="1541487047039" duration="60594000" />
       <workItem from="1542424795628" duration="58000" />
       <workItem from="1542424871813" duration="7331000" />
-      <workItem from="1542899897046" duration="17177000" />
+      <workItem from="1542899897046" duration="22584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176124000" />
+    <option name="totallyTimeSpent" value="181531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="130" width="1264" height="770" extended-state="0" />
@@ -774,73 +1033,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Media/Show/image.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Block/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/AdminBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Controller/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-932" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bitbag/cms-plugin/src/Resources/views/CrudUi/create.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/UiBundle/Resources/views/Layout/sidebar.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusAdminBundle/Customer/Show/_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusAdminBundle/Customer/_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusAdminBundle/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusAdminBundle/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="51" column="79" lean-forward="true" selection-start-line="50" selection-start-column="92" selection-end-line="51" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/layout.html.twig" />
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_header.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusCmsPlugin/Shop/Page/Show/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -852,20 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Homepage/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_newProducts.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -890,20 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/shop/js/yokoso.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/shop/js/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -911,13 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_sorting.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -929,15 +1086,6 @@
         <state>
           <folding>
             <element signature="e#11#51#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Product/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -955,42 +1103,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_search.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_main.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="e#11#45#0#Twig" expanded="true" />
-            <element signature="e#247#290#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="83" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1008,30 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-          <folding>
-            <element signature="e#12#40#0#Twig" expanded="true" />
-            <element signature="e#1258#1328#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_box.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#11#51#0#Twig" expanded="true" />
-            <element signature="e#1244#1296#0#Twig" expanded="true" />
-            <element signature="e#1752#1792#0#Twig" expanded="true" />
-            <element signature="e#2280#2325#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-919">
@@ -1046,22 +1138,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="628" column="30" selection-start-line="628" selection-start-column="30" selection-end-line="628" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bitbag/elasticsearch-plugin/src/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1082,6 +1160,211 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bitbag/elasticsearch-plugin/src/Resources/config/config.yml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_gallery.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/shop/js/yokoso.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Homepage/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#283#317#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_newProducts.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_horizontalList.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/shop/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenuMobile.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/_box.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#11#51#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/_flashes.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_sidebar.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Product/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_verticalMenu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_horizontalMenu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ProductBundle/Controller/ProductSlugController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Product/Index/_header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Taxon/_header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#51#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_pagination.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Behat/Page/Shop/Product/IndexPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="384" selection-start-line="384" selection-end-line="384" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_sorting.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_sorting.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sylius/sylius/src/Sylius/Bundle/ShopBundle/Resources/views/Product/Index/_search.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#78#121#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="57" selection-end-column="76" />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+            <element signature="n#h1#0;n#!!top" />
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_main.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#11#45#0#Twig" expanded="true" />
+            <element signature="e#302#346#0#Twig" expanded="true" />
+            <element signature="e#374#417#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_search.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
