@@ -47,7 +47,7 @@
     {{ sonata_block_render_event('sylius.shop.layout.before_body') }}
     <div id="yokoso-content">
         {% block top %}
-            <form action="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': 'category'}) }}"
+            <form action="{{ path('sylius_shop_product_index', {'slug': 'category'}) }}"
                   method="get">
                 <div id="menu" class="ui large inverted yokoso-red-bg menu">
                     {{ sonata_block_render_event('sylius.shop.layout.before_currency_switcher') }}

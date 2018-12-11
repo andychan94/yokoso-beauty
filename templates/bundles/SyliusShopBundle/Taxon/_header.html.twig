@@ -9,7 +9,7 @@
     <div class="ui grid container bottom-small-margin">
         {% for childTaxon in taxon.children %}
             <div class="four wide widescreen four wide computer five wide tablet sixteen wide mobile column no-v-padding">
-                <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}"
+                <a href="{{ path('sylius_shop_product_index', {'slug': childTaxon.slug, '_locale': childTaxon.translation.locale}) }}"
                    tabindex="0">
                     {{ childTaxon.name }}
                 </a>
