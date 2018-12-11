@@ -47,22 +47,16 @@
     {{ sonata_block_render_event('sylius.shop.layout.before_body') }}
     <div id="yokoso-content">
         {% block top %}
-            <form action="{{ path('sylius_shop_product_index', {'slug': 'category'}) }}"
-                  method="get">
                 <div id="menu" class="ui large inverted yokoso-red-bg menu">
                     {{ sonata_block_render_event('sylius.shop.layout.before_currency_switcher') }}
                     {{ render(controller('sylius.controller.shop.currency_switch:renderAction')) }}
                     {{ render(controller('sylius.controller.shop.locale_switch:renderAction')) }}
-                    {#<a href="https://t.me/uzjapan" class="item" target="_blank">
-                        <i class="telegram icon ui circular yokoso-top-social"></i>
-                    </a>#}
                     {{ sonata_block_render_event('sylius.shop.layout.before_security_widget') }}
 
                     {{ render(controller('sylius.controller.shop.security_widget:renderAction')) }}
 
                     {{ sonata_block_render_event('sylius.shop.layout.after_security_widget') }}
                 </div>
-            </form>
         {% endblock %}
 
         <div class="ui container">

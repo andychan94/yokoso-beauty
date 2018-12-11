@@ -1,17 +1,21 @@
 <div class="ui right inverted yokoso-red-bg menu">
     {{ render(url('bitbag_sylius_wishlist_plugin_shop_wishlist_render_header_template')) }}
     {{ render(url('sylius_shop_partial_cart_summary', {'template': '@SyliusShop/Cart/_widget.html.twig'})) }}
-    <div class="ui icon pointing dropdown yokoso-top-search item" id="yokoso-top-search">
-        <i class="search icon"></i>
-        <div class="menu">
-            <div class="ui action input item" id="yokoso-top-search-input">
-                    <input type="text" placeholder="{{ 'yokoso.search_all_inventory'|trans }}" name="criteria[search][value]">
+    <form action="{{ path('sylius_shop_product_index', {'slug': 'category'}) }}"
+          method="get" class="ui form">
+        <div class="ui icon pointing dropdown yokoso-top-search item" id="yokoso-top-search">
+            <i class="search icon"></i>
+            <div class="menu yokoso-top-menu-bar">
+                <div class="ui action input item" id="yokoso-top-search-input">
+                    <input type="text" placeholder="{{ 'yokoso.search_all_inventory'|trans }}"
+                           name="criteria[search][value]">
                     <button class="ui icon button" type="submit" id="yokoso-top-search-button">
                         <i class="search icon"></i>
                     </button>
+                </div>
             </div>
         </div>
-    </div>
+    </form>
     {% if is_granted('ROLE_USER') %}
         <div class="ui pointing dropdown link item" id="sylius-user-dropdown">
             <span class="text sylius-user">{{ app.user.customer.fullName }}!</span>
