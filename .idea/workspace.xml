@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3145ed3-853d-4765-8476-5decf6f948e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_header.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +155,7 @@
           <entry key="js" value="218" />
           <entry key="php" value="3" />
           <entry key="scss" value="1526" />
-          <entry key="twig" value="2018" />
+          <entry key="twig" value="2026" />
           <entry key="yaml" value="233" />
           <entry key="yml" value="33" />
         </counts>
@@ -169,7 +167,7 @@
           <entry key="PHP" value="3" />
           <entry key="PLAIN_TEXT" value="36" />
           <entry key="SCSS" value="1526" />
-          <entry key="Twig" value="2018" />
+          <entry key="Twig" value="2026" />
           <entry key="YAML" value="266" />
         </counts>
       </usages-collector>
@@ -196,9 +194,13 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="109" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -206,11 +208,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+            <state relative-caret-position="184">
+              <caret line="51" column="65" lean-forward="true" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -315,7 +317,6 @@
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_newProducts.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Cart/_floatingWidget.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/ProductReview/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/BitBagSyliusElasticsearchPlugin/Shop/Product/Index/_filterForm.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" />
         <option value="$PROJECT_DIR$/public/assets/shop/js/.gitignore" />
@@ -349,6 +350,7 @@
         <option value="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_header.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" />
       </list>
     </option>
   </component>
@@ -846,12 +848,12 @@
       <workItem from="1544428653166" duration="597000" />
       <workItem from="1544431883182" duration="1199000" />
       <workItem from="1544457078303" duration="1855000" />
-      <workItem from="1544542414802" duration="499000" />
+      <workItem from="1544542414802" duration="864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197295000" />
+    <option name="totallyTimeSpent" value="197660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
@@ -1141,16 +1143,20 @@
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Register/_header.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/_header.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        <state relative-caret-position="184">
+          <caret line="51" column="65" lean-forward="true" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="109" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
         </state>
       </provider>
     </entry>
