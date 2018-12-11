@@ -1,7 +1,7 @@
 <div class="ui right inverted yokoso-red-bg menu">
     {{ render(url('bitbag_sylius_wishlist_plugin_shop_wishlist_render_header_template')) }}
     {{ render(url('sylius_shop_partial_cart_summary', {'template': '@SyliusShop/Cart/_widget.html.twig'})) }}
-    <form action="{{ path('sylius_shop_product_index', {'slug': 'category'}) }}"
+    <form action="{{ path('sylius_shop_product_index', {'code': 'category'}) }}"
           method="get" class="ui form">
         <div class="ui icon pointing dropdown yokoso-top-search item" id="yokoso-top-search">
             <i class="search icon"></i>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3145ed3-853d-4765-8476-5decf6f948e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="d3145ed3-853d-4765-8476-5decf6f948e8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +127,7 @@
           <entry key="gitignore" value="2" />
           <entry key="js" value="8" />
           <entry key="php" value="9" />
-          <entry key="scss" value="9" />
+          <entry key="scss" value="10" />
           <entry key="sql" value="1" />
           <entry key="twig" value="103" />
           <entry key="yaml" value="22" />
@@ -143,7 +140,7 @@
           <entry key="JavaScript" value="8" />
           <entry key="PHP" value="9" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="SCSS" value="9" />
+          <entry key="SCSS" value="10" />
           <entry key="SQL" value="1" />
           <entry key="Twig" value="103" />
           <entry key="YAML" value="29" />
@@ -155,8 +152,8 @@
           <entry key="gitignore" value="20" />
           <entry key="js" value="218" />
           <entry key="php" value="3" />
-          <entry key="scss" value="1526" />
-          <entry key="twig" value="2048" />
+          <entry key="scss" value="1553" />
+          <entry key="twig" value="2068" />
           <entry key="yaml" value="233" />
           <entry key="yml" value="33" />
         </counts>
@@ -167,8 +164,8 @@
           <entry key="JavaScript" value="217" />
           <entry key="PHP" value="3" />
           <entry key="PLAIN_TEXT" value="36" />
-          <entry key="SCSS" value="1526" />
-          <entry key="Twig" value="2048" />
+          <entry key="SCSS" value="1553" />
+          <entry key="Twig" value="2068" />
           <entry key="YAML" value="266" />
         </counts>
       </usages-collector>
@@ -195,11 +192,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="105">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="635" column="33" selection-start-line="635" selection-start-column="33" selection-end-line="635" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -348,10 +354,10 @@
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_sorting.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_main.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Product/Index/_search.html.twig" />
-        <option value="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_header.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/layout.html.twig" />
         <option value="$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig" />
+        <option value="$PROJECT_DIR$/public/assets/shop/css/yokoso.scss" />
       </list>
     </option>
   </component>
@@ -709,59 +715,6 @@
               <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
               <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yokoso-beauty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yokoso-beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="SyliusShopBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Taxon" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -849,16 +802,15 @@
       <workItem from="1544428653166" duration="597000" />
       <workItem from="1544431883182" duration="1199000" />
       <workItem from="1544457078303" duration="1855000" />
-      <workItem from="1544542414802" duration="1747000" />
+      <workItem from="1544542414802" duration="2299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198543000" />
+    <option name="totallyTimeSpent" value="199095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -872,7 +824,7 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32890856" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49918166" weight="0.32890856" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49918166" weight="0.32837838" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -1008,13 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="57" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9345">
-          <caret line="623" column="23" selection-start-line="623" selection-start-column="23" selection-end-line="623" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1156,8 +1101,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Menu/_security.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/shop/css/yokoso.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="635" column="33" selection-start-line="635" selection-start-column="33" selection-end-line="635" selection-end-column="33" />
         </state>
       </provider>
     </entry>
