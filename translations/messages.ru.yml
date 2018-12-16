@@ -17,6 +17,7 @@ yokoso:
   search_in: 'Поиск в '
   search_all_inventory: 'Поиск по каталогу'
   all_inventory: 'Весь каталог'
+  maintenance_top: 'Сайт еще находится в стадии разработки'
 sylius:
   ui:
     hello: 'Здравствуйте,'
