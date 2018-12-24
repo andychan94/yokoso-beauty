@@ -9,7 +9,7 @@
             {% if ancestor.isRoot() %}
                 <div class="section" style="display: none">{{ ancestor.name }}</div>
             {% else %}
-                <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': ancestor.slug, '_locale': ancestor.translation.locale}) }}" class="section">{{ ancestor.name }}</a>
+                <a href="{{ path('sylius_shop_product_index', {'slug': ancestor.slug, '_locale': ancestor.translation.locale}) }}" class="section">{{ ancestor.name }}</a>
                 <i class="right chevron icon divider"></i>
             {% endif %}
         {% endfor %}

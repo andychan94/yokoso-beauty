@@ -445,4 +445,14 @@ a:hover {
 .yokoso-top-menu-bar {
   padding-right: 30px !important; }
 
+.yokoso-header-text {
+  vertical-align: middle; }
+  .yokoso-header-text, .yokoso-header-text a {
+    color: #fff !important;
+    font-weight: bolder;
+    font-size: 18px; }
+  .yokoso-header-text > div > span {
+    display: block;
+    margin-bottom: .7em; }
+
 /*# sourceMappingURL=yokoso.css.map */

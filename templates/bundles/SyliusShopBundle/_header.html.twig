@@ -1,8 +1,30 @@
-<div class="ui basic segment">
-    <div class="ui column centered">
+<div class="ui grid">
+    <div class="sixteen wide mobile six wide tablet six wide computer six wide large screen column centered">
         <a href="{{ path('sylius_shop_homepage') }}">
             <img src="{{ asset('assets/images/logo.png') }}" alt="Yokoso Japan"
                  class="ui small centered image yokoso-logo"/>
         </a>
+    </div>
+    <div class="mobile hidden five wide tablet five wide computer five wide large screen column"></div>
+    <div class="mobile hidden five wide tablet five wide computer five wide large screen column centered yokoso-header-text aligned" style="
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;">
+        <div>
+        <span class="header-location">
+            <i class="map marker alternate icon"></i>Нагоя / Ташкент
+        </span>
+        <span class="header-telegram">
+            <a href="https://t.me/uzjapan" class="item" target="_blank">
+                <i class="telegram icon"></i> @uzjapan
+            </a>
+        </span>
+        <span class="header-phone">
+            <a href="tel:+819060718877" class="item" target="_blank">
+                <i class="phone icon"></i> +81 90 6071 8877
+            </a>
+        </span>
+        </div>
     </div>
 </div>

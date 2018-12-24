@@ -74,17 +74,21 @@ body.pushable {
 body.pushable #yokoso-content {
   background: linear-gradient(180deg, $pink-rgb 0px, $pink-rgb 260px, #fff 200px) !important;
 }
+
 .no-v-padding {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+
 .no-h-padding {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
 .top-small-margin {
   margin-top: 1em !important;
 }
+
 .bottom-small-margin {
   margin-bottom: 1em !important;
 }
@@ -95,9 +99,11 @@ body.pushable #yokoso-content {
 
 .ui.menu .dropdown.item .menu {
   border: none !important;
+
   > .item:hover, .item.visible, .item.visible i {
     background: #fff !important;
     color: #eb6887 !important;
+
     > span > a {
       color: #eb6887 !important;
     }
@@ -110,6 +116,7 @@ body.pushable #yokoso-content {
 
 .ui.circular.cart.button {
   background-color: rgba(255, 255, 255, .95) !important;
+
   &:hover {
     color: rgba(214, 46, 71, 0.8) !important;
   }
@@ -134,6 +141,7 @@ body.pushable #yokoso-content {
 
 .ui.breadcrumb a {
   color: $red-rgb;
+
   &:hover {
     color: #eb6887 !important;
   }
@@ -158,15 +166,19 @@ a {
     color: #fff !important;
     text-shadow: none !important;
   }
+
   background-color: $red-rgba !important;
   color: #fff !important;
   text-shadow: none !important;
+
   i {
     color: #fff !important;
+
     &:hover {
       color: #fff !important;
     }
   }
+
   a, a:hover {
     color: #fff !important;
   }
@@ -176,13 +188,17 @@ a {
   &:hover {
     color: $red-rgba !important;
   }
+
   color: $red-rgba !important;
+
   i {
     color: $red-rgba !important;
+
     &:hover {
       color: $red-rgba !important;
     }
   }
+
   a, a:hover {
     color: $red-rgba !important;
   }
@@ -202,6 +218,7 @@ a {
     color: #fff;
     text-shadow: none;
   }
+
   background-color: $pink-rgb-lighter;
   color: #fff;
   text-shadow: none;
@@ -213,9 +230,11 @@ a {
 
 footer.footer {
   background: $pink-rgb !important;
+
   .yokoso-social {
     a, i {
       color: rgba(255, 255, 255, .7) !important;
+
       &:hover {
         color: rgba(255, 255, 255, 1) !important;
       }
@@ -253,9 +272,11 @@ a:hover {
     right: unset !important;
     left: .5em !important;
   }
+
   .yokoso-top-message-text {
     margin-left: 1em !important;
   }
+
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
@@ -267,9 +288,11 @@ a:hover {
   margin: 0 !important;
 
   background: linear-gradient(120deg, $pink-rgb, $red-rgb);
+
   * {
     color: #fff !important;
   }
+
   .yokoso-top-message-text {
     font-size: 0.8rem !important;
     font-weight: 400 !important;
@@ -278,9 +301,11 @@ a:hover {
 
 .yokoso-top-social.ui.circular {
   background-color: #fff !important;
+
   &.telegram {
     color: #0088cc !important;
   }
+
   &.instagram {
     color: #c13584 !important;
   }
@@ -305,6 +330,7 @@ a:hover {
   padding-top: .75em !important;
   padding-bottom: .65em !important;
   background-color: $red-rgb;
+
   .icon {
     color: #fff;
     margin: 0 !important;
@@ -326,6 +352,7 @@ a:hover {
   .dropdown {
     .item {
       color: $red-rgba-hover !important;
+
       &:hover {
         background-color: $red-rgb !important;
         color: #fff !important;
@@ -365,6 +392,7 @@ a:hover {
 .yokoso-filter-button {
   background: linear-gradient(120deg, $red-rgb, $pink-rgb-lighter) !important;
   margin: 0 !important;
+
   &:hover {
     background: $red-rgb !important;
   }
@@ -398,6 +426,7 @@ a:hover {
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
+
   &:hover {
     background-color: $pink-rgb-lighter !important;
   }
@@ -423,12 +452,15 @@ a:hover {
     top: 40%;
     background-color: $red-rgb !important;
   }
+
   &left {
     left: 0;
   }
+
   &right {
     right: -25px;
   }
+
   &right-fix {
     right: 0;
   }
@@ -438,11 +470,14 @@ a:hover {
   .owl-stage-outer {
     margin-top: 1em;
   }
+
   .owl-dots {
     margin-top: 1em;
+
     .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: $red-rgb;
     }
+
     .owl-dot span {
       background: $pink-rgb-lightest;
     }
@@ -456,12 +491,15 @@ a:hover {
   left: auto;
   margin-left: 0;
 }
-#yokoso-nav.ui.menu .ui.dropdown .menu>.item:not(.visible) {
+
+#yokoso-nav.ui.menu .ui.dropdown .menu > .item:not(.visible) {
   color: #fff !important;
+
   a, i {
     color: #fff !important;
   }
 }
+
 #yokoso-nav {
   .yokoso-popup-activator.visible {
     &, & a {
@@ -469,10 +507,12 @@ a:hover {
     }
   }
 }
+
 #yokoso-nav.ui.menu .dropdown.item .menu > .item:hover {
   > span a, > i {
     color: #eb6887 !important;
   }
+
   background-color: #fff !important;
   color: #eb6887 !important;
 }
@@ -494,11 +534,13 @@ a:hover {
   .list .item {
     a {
       color: #000000 !important;
+
       &:hover {
         color: #eb6887 !important;
       }
     }
   }
+
   .grid {
     > .column {
       > .list {
@@ -508,6 +550,7 @@ a:hover {
               font-weight: bold;
             }
           }
+
           > a {
             font-weight: bold;
           }
@@ -527,6 +570,7 @@ a:hover {
   max-height: 100%;
   overflow: auto;
   padding-top: .5em;
+
   &.boxed {
     .ui {
       &.styled {
@@ -534,6 +578,7 @@ a:hover {
           > .title:not(:first-child) {
             border-top: 1px solid rgba(255, 255, 255, .7);
           }
+
           .content:not(:first-child) {
             border-top: 1px solid rgba(255, 255, 255, .7);
           }
@@ -541,32 +586,38 @@ a:hover {
       }
     }
   }
+
   .ui {
     * {
       color: #fff;
     }
+
     &.styled {
       &.accordion,
       &.accordion .accordion {
         .content {
           font-weight: 700 !important;
         }
+
         background: inherit;
         box-shadow: none;
         padding: 0;
         margin: 0;
+
         .accordion .title, .title, .content {
           border-top: none;
           padding: .35em 0 .35em 1em;
           margin: 0;
           color: rgba(255, 255, 255, 0.8);
         }
+
         .accordion .content, .content {
           .subtitle {
             margin: 0 1.75rem 0 0;
             padding: .35em 0;
             color: rgba(255, 255, 255, 0.5);
             font-size: 0.9rem;
+
             &.hide {
               display: none;
             }
@@ -576,9 +627,10 @@ a:hover {
     }
   }
 }
+
 .sidebar-help {
   margin: 0.5em 0 0 0.35em !important;
-  color: rgba(255,255,255,0.7) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 
 #yokoso-main-sidebar.ui.inverted.menu {
@@ -591,39 +643,46 @@ a:hover {
 }
 
 #yokoso-nav .item.yokoso-popup-activator.visible {
-    & a, & i {
-      color: #eb6887 !important;
-    }
+  & a, & i {
+    color: #eb6887 !important;
+  }
 }
+
 .yokoso-ellipsis {
   &:before {
-    content:'';
-    width:100%;
+    content: '';
+    width: 100%;
     height: 160px;
-    position:absolute;
-    left:0;
-    top:0;
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 99;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 130px, white 150px);
   }
+
   .sylius-product-price {
     margin: 1em 0;
-    color: #B12704!important;
+    color: #B12704 !important;
     font-weight: 700 !important;
     font-size: 1.28571429em !important;
   }
+
   position: relative !important;
   overflow: hidden;
   height: 160px;
   text-align: left !important;
 }
+
 .ui.raised.link.card.centered .ui.attached.buttons {
   z-index: 999;
 }
+
 .yokoso-prod-search {
   display: inline-flex;
+
   .field {
     margin: 0 !important;
+
     input[type="text"] {
       -webkit-border-radius: 0 !important;
       -moz-border-radius: 0 !important;
@@ -632,6 +691,20 @@ a:hover {
     }
   }
 }
+
 .yokoso-top-menu-bar {
   padding-right: 30px !important;
+}
+
+.yokoso-header-text {
+  vertical-align: middle;
+  &, a {
+    color: #fff !important;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  >div>span {
+    display: block;
+    margin-bottom: .7em;
+  }
 }
