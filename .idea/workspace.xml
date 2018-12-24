@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_breadcrumb.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -784,12 +784,12 @@
       <workItem from="1544966505568" duration="794000" />
       <workItem from="1545054251146" duration="27000" />
       <workItem from="1545054305522" duration="1923000" />
-      <workItem from="1545548773510" duration="5587000" />
+      <workItem from="1545548773510" duration="6073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209157000" />
+    <option name="totallyTimeSpent" value="209643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
@@ -1105,7 +1105,7 @@
     <entry file="file://$PROJECT_DIR$/templates/bundles/SyliusShopBundle/Taxon/_breadcrumb.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
         </state>
       </provider>
     </entry>

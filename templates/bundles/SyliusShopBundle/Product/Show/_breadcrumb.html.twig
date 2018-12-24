@@ -6,15 +6,17 @@
         {% set ancestors = taxon.ancestors|reverse %}
 
         {% for ancestor in ancestors %}
+       	  {% if ancestor.code != 'category' %}
             {% if ancestor.isRoot() %}
                 <div class="section" style="display: none">{{ ancestor.name }}</div>
             {% else %}
                 <a href="{{ path('sylius_shop_product_index', {'slug': ancestor.slug, '_locale': ancestor.translation.locale}) }}" class="section">{{ ancestor.name }}</a>
                 <i class="right chevron icon divider"></i>
             {% endif %}
+	  {% endif %}
         {% endfor %}
 
-        <a href="{{ path('bitbag_sylius_elasticsearch_plugin_shop_list_products', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}" class="section">{{ taxon.name }}</a>
+        <a href="{{ path('sylius_shop_product_index', {'slug': taxon.slug, '_locale': taxon.translation.locale}) }}" class="section">{{ taxon.name }}</a>
 
         <i class="right chevron icon divider"></i>
     {% endif %}
