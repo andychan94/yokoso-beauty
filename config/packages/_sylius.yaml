@@ -9,7 +9,6 @@ imports:
 - { resource: "grids/grids.yml" }
 - { resource: "@BitBagSyliusWishlistPlugin/Resources/config/config.yml" }
 - { resource: "@BitBagSyliusCmsPlugin/Resources/config/config.yml" }
-- { resource: "@BitBagSyliusElasticsearchPlugin/Resources/config/config.yml" }
 
 
 parameters:

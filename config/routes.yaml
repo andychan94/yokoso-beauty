@@ -4,8 +4,8 @@ bitbag_sylius_wishlist_plugin:
 bitbag_sylius_cms_plugin:
   resource: "@BitBagSyliusCmsPlugin/Resources/config/routing.yml"
 
-bitbag_sylius_elasticsearch_plugin:
-  resource: "@BitBagSyliusElasticsearchPlugin/Resources/config/routing.yml"
+#bitbag_sylius_elasticsearch_plugin:
+#  resource: "@BitBagSyliusElasticsearchPlugin/Resources/config/routing.yml"
 
 redirect_sylius_shop_product_index:
   path: /taxons/{slug}

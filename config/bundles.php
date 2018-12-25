@@ -61,7 +61,4 @@ return [
     FOS\CKEditorBundle\FOSCKEditorBundle::class => ['all' => true],
     SitemapPlugin\SitemapPlugin::class => ['all' => true],
     BitBag\SyliusCmsPlugin\BitBagSyliusCmsPlugin::class => ['all' => true],
-    FOS\ElasticaBundle\FOSElasticaBundle::class => ['all' => true],
-    FOS\ElasticaBundle\FOSElasticaBundle::class => ['all' => true],
-    BitBag\SyliusElasticsearchPlugin\BitBagSyliusElasticsearchPlugin::class => ['all' => true],
 ];
