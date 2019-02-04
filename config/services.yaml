@@ -48,3 +48,5 @@ services:
     class: Monolog\Processor\WebProcessor
     tags:
     - { name: monolog.processor }
+  App\Controller\CustomController:
+    autowire: false

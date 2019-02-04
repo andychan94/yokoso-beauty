@@ -15,3 +15,9 @@ redirect_sylius_shop_product_index:
     permanent: true
   requirements:
     slug: .+
+sylius_admin_ajax_product_index:
+  path: /admin/ajax/products/
+  methods: [GET]
+  defaults:
+    _controller: App\Controller\CustomController:searchProductAction
+    _format: json

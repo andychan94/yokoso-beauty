@@ -58,3 +58,8 @@ liip_imagine:
     sylius_shop_product_large_thumbnail:
       filters:
         thumbnail: { size: [550, 550], mode: inset }
+sylius_product:
+  resources:
+    product:
+      classes:
+        repository: App\Repository\ProductRepository
