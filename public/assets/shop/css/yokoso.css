@@ -455,4 +455,7 @@ a:hover {
     display: block;
     margin-bottom: .7em; }
 
+.sylius-product-blacktext {
+  color: #000000 !important; }
+
 /*# sourceMappingURL=yokoso.css.map */
