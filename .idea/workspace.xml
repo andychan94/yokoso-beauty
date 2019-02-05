@@ -696,16 +696,15 @@
       <workItem from="1545054251146" duration="27000" />
       <workItem from="1545054305522" duration="1923000" />
       <workItem from="1545548773510" duration="6073000" />
-      <workItem from="1549268630842" duration="1916000" />
+      <workItem from="1549268630842" duration="2480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214184000" />
+    <option name="totallyTimeSpent" value="214748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
