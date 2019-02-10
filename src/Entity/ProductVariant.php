@@ -36,7 +36,7 @@ class ProductVariant extends BaseProductVariant
     /**
      * @param string $linkToOriginal
      */
-    public function setLinkToOriginal(string $linkToOriginal): void
+    public function setLinkToOriginal(?string $linkToOriginal): void
     {
         $this->linkToOriginal = $linkToOriginal;
     }
