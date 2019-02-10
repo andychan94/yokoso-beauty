@@ -63,3 +63,6 @@ sylius_product:
     product:
       classes:
         repository: App\Repository\ProductRepository
+    product_variant:
+      classes:
+        model: App\Entity\ProductVariant

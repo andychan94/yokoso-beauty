@@ -1,7 +1,7 @@
 telegram_username: 'Ваше имя польователя в Telegram'
 telegram_username_short: Telegram
 Similar products: 'Похожие товары'
-
+link_to_original: 'Ссылка на детали товара:'
 yokoso:
   home: 'Главная'
   about: 'О нас'
