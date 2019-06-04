@@ -1,0 +1,6 @@
+sylius_resource:
+  resources:
+    app.feedbacks:
+      driver: doctrine/orm # You can use also different driver here
+      classes:
+        model: App\Entity\Feedbacks

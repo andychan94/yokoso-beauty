@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DoctrineMigrations;
 
-use Doctrine\DBAL\Migrations\AbstractMigration;
 use Doctrine\DBAL\Schema\Schema;
+use Doctrine\Migrations\AbstractMigration;
 use Sylius\Component\Attribute\AttributeType\SelectAttributeType;
 use Sylius\Component\Product\Model\ProductAttributeInterface;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
@@ -31,6 +31,7 @@ class Version20171003103916 extends AbstractMigration implements ContainerAwareI
 
     /**
      * @param Schema $schema
+     * @throws \Doctrine\DBAL\DBALException
      */
     public function up(Schema $schema): void
     {
@@ -67,6 +68,7 @@ class Version20171003103916 extends AbstractMigration implements ContainerAwareI
 
     /**
      * @param Schema $schema
+     * @throws \Doctrine\DBAL\DBALException
      */
     public function down(Schema $schema): void
     {

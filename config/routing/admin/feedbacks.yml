@@ -1,0 +1,13 @@
+app_admin_feedbacks:
+  resource: |
+    alias: app.feedbacks
+    section: admin
+    templates: SyliusAdminBundle:Crud
+    redirect: update
+    grid: app_admin_feedbacks
+    vars:
+        all:
+            subheader: app.ui.feedbacks
+        index:
+            icon: 'file image outline'
+  type: sylius.resource

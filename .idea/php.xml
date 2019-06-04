@@ -229,6 +229,19 @@
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
       <path value="$PROJECT_DIR$/vendor/sylius-labs/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/sylius/resource-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sylius/mailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sylius/fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sylius/theme-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sylius/grid-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sylius/registry" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

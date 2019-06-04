@@ -21,3 +21,6 @@ sylius_admin_ajax_product_index:
   defaults:
     _controller: App\Controller\CustomController:searchProductAction
     _format: json
+app_admin:
+  resource: 'routing/admin.yml'
+  prefix: /admin

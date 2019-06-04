@@ -1,0 +1,2 @@
+app_admin_feedbacks:
+  resource: 'admin/feedbacks.yml'

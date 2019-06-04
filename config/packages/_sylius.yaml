@@ -66,3 +66,35 @@ sylius_product:
     product_variant:
       classes:
         model: App\Entity\ProductVariant
+
+sylius_grid:
+  grids:
+    app_admin_feedbacks:
+      driver:
+        name: doctrine/orm
+        options:
+          class: App\Entity\Feedbacks
+      fields:
+        name:
+          type: string
+          label: sylius.ui.name
+        rating:
+          type: string
+          label: sylius.ui.rating
+        comment:
+          type: string
+          label: sylius.ui.comment
+        isConfirmed:
+          type: twig
+          label: sylius.ui.enabled
+          options:
+            template: SyliusUiBundle:Grid/Field:enabled.html.twig
+      actions:
+        main:
+          create:
+            type: create
+        item:
+          update:
+            type: update
+          delete:
+            type: delete
