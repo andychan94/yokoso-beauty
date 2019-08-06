@@ -24,3 +24,5 @@ sylius_admin_ajax_product_index:
 app_admin:
   resource: 'routing/admin.yml'
   prefix: /admin
+app_shop:
+  resource: 'routing/shop.yml'

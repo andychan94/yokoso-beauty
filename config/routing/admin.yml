@@ -1,2 +1,2 @@
-app_admin_feedbacks:
-  resource: 'admin/feedbacks.yml'
+app_admin_feedback:
+  resource: 'admin/feedback.yml'

@@ -54,5 +54,10 @@ services:
     class: App\Menu\AdminMenuListener
     tags:
       - { name: kernel.event_listener, event: sylius.menu.admin.main, method: addAdminMenuItems }
+  app.feedback.form.type:
+    class: App\Form\FeedbackType
+    tags:
+      - { name: form.type }
+    arguments: ['%app.model.feedback.class%', ['default']]
 imports:
   - { resource: "resources.yaml" }

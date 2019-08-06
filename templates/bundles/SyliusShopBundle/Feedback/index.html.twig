@@ -1,0 +1,36 @@
+{% extends '@SyliusShop/layout.html.twig' %}
+
+{% block content %}
+    <div class="ui hidden divider"></div>
+    <div class="ui stackable grid">
+        <div class="sixteen wide column">
+            <div class="ui segment">
+
+                <a href="{{ path('app_feedback_index') }}">
+                    <div class="ui red labeled icon button"><i class="icon plus"></i> {{ 'sylius.ui.add_your_review'|trans }}</div>
+                </a>
+                {% if feedback|length > 0 %}
+                    <div class="ui large comments">
+                        {% for review in feedback %}
+                            <div class="comment">
+                                <div class="content">
+                                    <span class="author">{{ review.name }}</span>
+                                    <div class="metadata">
+                                        <div class="date">{{ review.createDate|format_date }}</div>
+                                        <div class="rating">
+                                            <div class="ui star rating" data-rating="{{ review.rating }}" data-max-rating="5" style="pointer-events: none;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text">{{ review.comment }}</div>
+                                </div>
+                            </div>
+
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    {{ messages.info('sylius.ui.there_are_no_reviews') }}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

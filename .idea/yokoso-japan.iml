@@ -38,10 +38,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/persistence" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/reflection" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/egulias/email-validator" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/friends-of-behat/context-service-extension" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/friends-of-behat/cross-container-extension" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/friends-of-behat/page-object-extension" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/friends-of-behat/service-container-extension" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/friends-of-behat/suite-settings-extension" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/friends-of-behat/symfony-extension" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/friends-of-behat/variadic-extension" />
@@ -160,6 +157,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sylius/resource-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sylius/sylius" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sylius/theme-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/apache-pack" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/asset" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/cache" />

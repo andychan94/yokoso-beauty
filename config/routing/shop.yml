@@ -1,0 +1,2 @@
+app_feedback:
+  resource: 'shop/feedback.yml'

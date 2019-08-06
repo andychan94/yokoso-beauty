@@ -1,0 +1,21 @@
+app_feedback:
+  resource: |
+    alias: app.feedback
+    only: ['create']
+    templates: bundles/SyliusShopBundle/Feedback
+    redirect: index
+  type: sylius.resource
+
+app_feedback_index:
+  path: /feedback
+  methods: [GET]
+  defaults:
+    _controller: app.controller.feedback:indexAction
+    _sylius:
+#      sortable: true
+#      sorting:
+#        score: desc
+      template: bundles/SyliusShopBundle/Feedback/index.html.twig
+      repository:
+        method: findByIsConfirmed
+        arguments: [true]

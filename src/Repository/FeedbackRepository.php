@@ -2,25 +2,25 @@
 
 namespace App\Repository;
 
-use App\Entity\Feedbacks;
+use App\Entity\Feedback;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
 /**
- * @method Feedbacks|null find($id, $lockMode = null, $lockVersion = null)
- * @method Feedbacks|null findOneBy(array $criteria, array $orderBy = null)
- * @method Feedbacks[]    findAll()
- * @method Feedbacks[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
+ * @method Feedback|null find($id, $lockMode = null, $lockVersion = null)
+ * @method Feedback|null findOneBy(array $criteria, array $orderBy = null)
+ * @method Feedback[]    findAll()
+ * @method Feedback[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class FeedbacksRepository extends ServiceEntityRepository
+class FeedbackRepository extends ServiceEntityRepository
 {
     public function __construct(RegistryInterface $registry)
     {
-        parent::__construct($registry, Feedbacks::class);
+        parent::__construct($registry, Feedback::class);
     }
 
     // /**
-    //  * @return Feedbacks[] Returns an array of Feedbacks objects
+    //  * @return Feedback[] Returns an array of Feedback objects
     //  */
     /*
     public function findByExampleField($value)
@@ -37,7 +37,7 @@ class FeedbacksRepository extends ServiceEntityRepository
     */
 
     /*
-    public function findOneBySomeField($value): ?Feedbacks
+    public function findOneBySomeField($value): ?Feedback
     {
         return $this->createQueryBuilder('f')
             ->andWhere('f.exampleField = :val')

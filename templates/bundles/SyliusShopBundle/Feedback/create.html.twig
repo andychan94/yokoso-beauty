@@ -1,0 +1,42 @@
+{% extends '@SyliusShop/layout.html.twig' %}
+
+{% form_theme form '@SyliusShop/Form/theme.html.twig' %}
+
+{% block content %}
+    <div class="ui hidden divider"></div>
+    <div class="ui stackable grid">
+        <div class="sixteen wide column">
+            <div class="ui segment">
+
+                {{ form_start(form, {'action': path('app_feedback_create'), 'attr': {'class': 'ui loadable reply form', 'novalidate': 'novalidate'}}) }}
+                <div class="ui grid">
+                    <div class="eight wide column">
+                        {% include '@SyliusShop/Feedback/_form.html.twig' %}
+                <button type="submit" class="ui blue labeled large icon submit button">
+                    <i class="icon check"></i> {{ 'sylius.ui.add'|trans }}
+                </button>
+                    </div>
+                </div>{{ form_row(form._token) }}
+                {{ form_end(form, {'render_rest': false}) }}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+        $("#yokoso-thumbs .thumbs.up").click(function (e) {
+            e.preventDefault();
+            $(this).removeClass("disabled grey").addClass("green");
+            $(this).parent().siblings("a").find("i").addClass("disabled grey").removeClass("red");
+            $("#app_feedback_isPositive").prop('checked', true);
+        });
+        $("#yokoso-thumbs .thumbs.down").click(function (e) {
+            e.preventDefault();
+            $(this).removeClass("disabled grey").addClass("red");
+            $(this).parent().siblings("a").find("i").addClass("disabled grey").removeClass("green");
+            $("#app_feedback_isPositive").prop('checked', false);
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,17 @@
+<div class="field">
+    {{ form_widget(form.name, {'attr': {'placeholder': 'sylius.form.address.first_name'|trans} }) }}
+    {{ form_errors(form.name) }}
+</div>
+<div class="field">
+    {{ form_widget(form.comment, {'attr': {'placeholder': 'sylius.ui.write_your_own_review'|trans} }) }}
+    {{ form_errors(form.comment) }}
+</div>
+<div class="field">
+    <span id="yokoso-thumbs">
+        <a href="#"><i class="big green inverted circular thumbs up icon"></i></a>
+        <a href="#"><i class="disabled big grey inverted circular thumbs down icon"></i></a>
+    </span>
+    <br/>
+    {{ form_errors(form.isPositive) }}
+    {{ form_widget(form.isPositive, {'attr': {'style': 'display: none','checked' : 'checked'} }) }}
+</div>

@@ -69,17 +69,17 @@ sylius_product:
 
 sylius_grid:
   grids:
-    app_admin_feedbacks:
+    app_admin_feedback:
       driver:
         name: doctrine/orm
         options:
-          class: App\Entity\Feedbacks
+          class: App\Entity\Feedback
       fields:
         name:
           type: string
           label: sylius.ui.name
-        rating:
-          type: string
+        isPositive:
+          type: boolean
           label: sylius.ui.rating
         comment:
           type: string

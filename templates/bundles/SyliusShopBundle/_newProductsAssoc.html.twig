@@ -1,0 +1,4 @@
+<h2 class="ui horizontal section divider header">
+    {{ 'sylius.ui.latest_products'|trans }}
+</h2>
+{{ render(url('sylius_shop_partial_product_index_latest', {'count': 6, 'template': '@SyliusShop/Product/_horizontalListAssoc.html.twig'})) }}

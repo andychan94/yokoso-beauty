@@ -16,7 +16,7 @@ final class AdminMenuListener
         ;
 
         $newSubmenu
-            ->addChild('new',['route' => 'app_admin_feedbacks_index'])
+            ->addChild('new',['route' => 'app_admin_feedback_index'])
             ->setLabel('Website Reviews')
             ->setLabelAttribute('icon', 'star')
         ;

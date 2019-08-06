@@ -1,0 +1,9 @@
+<div class="ui four doubling cards">
+    <div class="ui centered grid owl-carousel owl-theme" id="yokoso-new-products">
+        {% for product in products %}
+            <div class="sixteen wide mobile eight wide tablet five wide computer centered column">
+                {% include '@SyliusShop/Product/_boxAssoc.html.twig' %}
+            </div>
+        {% endfor %}
+    </div>
+</div>

@@ -192,16 +192,13 @@
       <path value="$PROJECT_DIR$/vendor/friends-of-behat/variadic-extension" />
       <path value="$PROJECT_DIR$/vendor/behat/mink" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
-      <path value="$PROJECT_DIR$/vendor/friends-of-behat/context-service-extension" />
       <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/vendor/friends-of-behat/service-container-extension" />
       <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/friends-of-behat/symfony-extension" />
       <path value="$PROJECT_DIR$/vendor/behat/mink-selenium2-driver" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/vendor/friends-of-behat/cross-container-extension" />
       <path value="$PROJECT_DIR$/vendor/behat/mink-extension" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
@@ -241,6 +238,7 @@
       <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
       <path value="$PROJECT_DIR$/vendor/sylius/sylius" />
       <path value="$PROJECT_DIR$/vendor/sylius/resource-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
